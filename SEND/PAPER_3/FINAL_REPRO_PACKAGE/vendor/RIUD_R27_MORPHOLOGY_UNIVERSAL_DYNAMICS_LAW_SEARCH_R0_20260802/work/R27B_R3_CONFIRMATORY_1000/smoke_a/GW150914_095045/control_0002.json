@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "event": "GW150914_095045",
+  "control_index": 2,
+  "null_id": "R3_MATCHED_GW150914_095045_0002",
+  "window_start_gps": 1126258438.5,
+  "raw_path": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\raw_checkpoints\\control_0002.npz",
+  "raw_sha256": "01d03d733361aeee3cecda96d53d0497f6d0c5217710490004d16a06ee634619",
+  "trajectory_file": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\control_0002.csv",
+  "trajectory_sha256": "aa7a087b5cb83d7256c67d8c28c079ed83049f5e60382959b9d8853a8098191d",
+  "family": "NONE",
+  "path_nodes": 0,
+  "candidate_count": 0,
+  "path_search_executed": true,
+  "family_classification_control_derived": true,
+  "allowed_families": [
+    "quasi-stationary"
+  ],
+  "r2_gps_duplicate": false,
+  "r2_raw_hash_duplicate": false
+}

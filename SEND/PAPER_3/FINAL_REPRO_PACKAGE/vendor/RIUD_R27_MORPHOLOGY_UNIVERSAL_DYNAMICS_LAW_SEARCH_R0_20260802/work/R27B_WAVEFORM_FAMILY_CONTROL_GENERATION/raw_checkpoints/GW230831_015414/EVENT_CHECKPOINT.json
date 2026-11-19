@@ -1,0 +1,42 @@
+{
+  "event": "GW230831_015414",
+  "status": "PASS",
+  "families": {
+    "IMRPhenomXPHM": {
+      "checkpoint": "/mnt/c/Users/민재현/Documents/Codex/2026-08-02/new-chat-2/outputs/RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802/work/R27B_WAVEFORM_FAMILY_CONTROL_GENERATION/raw_checkpoints/GW230831_015414/IMRPhenomXPHM/control_000.npz",
+      "sha256": "edd28e639349b537b6548c104d839dfd653ff0f7dbf7ac6df7df01cdc96eb1d1",
+      "source": {
+        "H1": {
+          "strain_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726/assets/GW230831_015414/GW230831_015414_H1_GWOSC_4096HZ_2048S_LONG.hdf5",
+          "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/work/GW230831_015414/regenerated_residuals/IMRPhenomXPHM/GW230831_015414_H1_IMRPhenomXPHM_POSTERIOR_MEDIAN_RESIDUAL.h5",
+          "window_start_gps": 1377482070.061388,
+          "sample_rate": 4096.0
+        },
+        "L1": {
+          "strain_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726/assets/GW230831_015414/GW230831_015414_L1_GWOSC_4096HZ_2048S_LONG.hdf5",
+          "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/work/GW230831_015414/regenerated_residuals/IMRPhenomXPHM/GW230831_015414_L1_IMRPhenomXPHM_POSTERIOR_MEDIAN_RESIDUAL.h5",
+          "window_start_gps": 1377482070.061388,
+          "sample_rate": 4096.0
+        }
+      }
+    },
+    "SEOBNRv4PHM": {
+      "checkpoint": "/mnt/c/Users/민재현/Documents/Codex/2026-08-02/new-chat-2/outputs/RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802/work/R27B_WAVEFORM_FAMILY_CONTROL_GENERATION/raw_checkpoints/GW230831_015414/SEOBNRv4PHM/control_000.npz",
+      "sha256": "d3dd68d061e3c3c6c715925cf8821281ae63fb556756c5f120fc4527bcf9bc8c",
+      "source": {
+        "H1": {
+          "strain_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726/assets/GW230831_015414/GW230831_015414_H1_GWOSC_4096HZ_2048S_LONG.hdf5",
+          "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/work/GW230831_015414/regenerated_residuals/IMRPhenomXPHM/GW230831_015414_H1_IMRPhenomXPHM_POSTERIOR_MEDIAN_RESIDUAL.h5",
+          "window_start_gps": 1377482070.061388,
+          "sample_rate": 4096.0
+        },
+        "L1": {
+          "strain_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726/assets/GW230831_015414/GW230831_015414_L1_GWOSC_4096HZ_2048S_LONG.hdf5",
+          "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/work/GW230831_015414/regenerated_residuals/IMRPhenomXPHM/GW230831_015414_L1_IMRPhenomXPHM_POSTERIOR_MEDIAN_RESIDUAL.h5",
+          "window_start_gps": 1377482070.061388,
+          "sample_rate": 4096.0
+        }
+      }
+    }
+  }
+}

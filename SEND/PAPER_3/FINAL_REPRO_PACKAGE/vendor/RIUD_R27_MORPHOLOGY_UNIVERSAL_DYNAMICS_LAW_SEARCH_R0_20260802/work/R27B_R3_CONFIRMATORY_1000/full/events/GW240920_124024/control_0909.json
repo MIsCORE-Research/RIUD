@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "event": "GW240920_124024",
+  "control_index": 909,
+  "null_id": "R3_MATCHED_GW240920_124024_0909",
+  "window_start_gps": 1410870445.0,
+  "raw_path": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\full\\events\\GW240920_124024\\raw_checkpoints\\control_0909.npz",
+  "raw_sha256": "b4fa9afc45aac71d58d95867d2df1122a6fa1ba9f5a9c598856e04ad0709d7e8",
+  "trajectory_file": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\full\\events\\GW240920_124024\\control_0909.csv",
+  "trajectory_sha256": "5aaa44e6fe5f9b1911e23f23d31444a2e8c80ceda37e7f2687202e556a5943df",
+  "family": "oscillatory",
+  "path_nodes": 14,
+  "candidate_count": 8,
+  "path_search_executed": true,
+  "family_classification_control_derived": true,
+  "allowed_families": [
+    "monotonic-fall",
+    "monotonic-rise",
+    "multistep",
+    "oscillatory",
+    "peak-return",
+    "rise-peak-fall"
+  ],
+  "r2_gps_duplicate": false,
+  "r2_raw_hash_duplicate": false
+}

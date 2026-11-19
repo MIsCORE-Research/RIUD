@@ -1,0 +1,39 @@
+{
+  "stage": "R1_COLD_INDEPENDENT_CANONICAL_COMPARISON",
+  "revision": "R1",
+  "scope": "metadata_and_provenance_only",
+  "scientific_recomputation": false,
+  "p_value_pooling": false,
+  "direct_p_value_comparison": false,
+  "inputs": [
+    "RIUD_R1_C33_EXT4_BATCHED_SYNC_SAFE_RESUME_R2_20260803/output/R9_FULL_62400/R_STATUS.json",
+    "RIUD_R1_C33_EXT4_BATCHED_SYNC_SAFE_RESUME_R2_20260803/output/R9_FULL_62400/SEND_TO_CHAT.txt",
+    "03_INDEPENDENT_REPLICATION_R1/R_STATUS.json",
+    "03_INDEPENDENT_REPLICATION_R1/SEND_TO_CHAT.txt",
+    "03_INDEPENDENT_REPLICATION_R1/PAPERIII_RESULTS.csv",
+    "03_INDEPENDENT_REPLICATION_R1/PAPERIII_DRAW_TABLE.csv",
+    "03_INDEPENDENT_REPLICATION_R1/MERGE_RESULT.json",
+    "03_INDEPENDENT_REPLICATION_R1/INDEPENDENT_REPLICATION_DESIGN_LOCK.sha256",
+    "DESIGN_LOCK_R1.sha256"
+  ],
+  "cold_statistic_family": "Paper III injection-basis candidate-population fingerprint",
+  "independent_statistic_family": "R1 H1-H3 locked family-dynamics max-T validation",
+  "locked_comparison_fields": [
+    "status",
+    "job and draw completeness",
+    "technical-invalid count",
+    "design-lock provenance",
+    "cross-stage result reuse",
+    "scientific statistic family"
+  ],
+  "prohibitions": [
+    "do_not_pool_null_distributions",
+    "do_not_combine_p_values",
+    "do_not_replace_branch_verdicts_with_combined_verdict",
+    "do_not_touch_C33_or_C36",
+    "do_not_overwrite_existing_results"
+  ],
+  "final_verdict_policy": "retain_branch-specific final verdicts; no combined verdict is formed by this audit",
+  "C33_RUN_TOUCHED": false,
+  "C36_RUN_TOUCHED": false
+}

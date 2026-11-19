@@ -1,0 +1,10 @@
+B7C80H FINAL SCORE BRIDGE:
+score_bridge_verdict=B7C80H_FINAL_SCORE_BRIDGE_LOCKED_A2_MATCHES_COMPARABLE_ORIGINAL_19OF19_ROWS_8OF8_EVENTS
+comparable_detector_rows=19
+detector_loose_matches_1e_minus_6=19/19
+event_loose_matches_1e_minus_6=8/8
+event_same_band_rows=8/8
+bad_std_zero_filled=false
+physical_median_clipping_used=false
+unrestricted_original_event_best_differs_count=1
+unrestricted_diff_event=GW200208_130117

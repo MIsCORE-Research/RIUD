@@ -1,0 +1,11 @@
+ALLOWED
+- Direct cross-event complex-phase alignment survives the exact selector-aware conditional phase-randomization null.
+- Zero exceedances occurred in 100,000 primary and 100,000 joint draws.
+- The implemented fixed-path selection-bias explanation is not supported.
+
+NOT ALLOWED
+- Empirical off-source detector-phase calibration completed.
+- Physical origin identified.
+- General relativity violated.
+- Quantum gravity detected.
+- Independent prospective replication completed.

@@ -1,0 +1,12 @@
+Figure 1. Event-level evidence for the 13 frozen locked paths. The plot shows the event-robust z value reported in the integrated frozen panel. The population claim does not require every event to be individually significant.
+
+Figure 2. Raw-strain fixed-path robustness variants. Stack statistics are shown for equal and visibility-weighted assignments under canonical raw, band-pass, notch, and coordinate-drop configurations.
+
+Figure 3. Prelocked nuisance-family fingerprints. Bars show the median change in the internal global statistic relative to the baseline across four prelocked amplitude levels. Internal z values are not Gaussian sigma.
+
+Figure 4. Exact selector-aware conditional complex-phase result. The observed zero-direction real component is compared with the primary null's 95th percentile, 99th percentile, and maximum over 100,000 draws.
+
+Table 1. Event-level locked-path evidence.
+Table 2. Raw-strain fixed-path global variants.
+Table 3. Prelocked nuisance-family calibration summary.
+Table 4. Selector-aware event-level reproduction and control-path frequency.

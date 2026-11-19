@@ -1,0 +1,99 @@
+{
+  "package": "RIUD_PAPERII_PAPERIII_COLD_AND_INTERNAL_SPLIT_R1_20260803",
+  "revision": "R1",
+  "events": [
+    "GW150914_095045",
+    "GW200129_065458",
+    "GW200224_222234",
+    "GW230824_033047",
+    "GW230831_015414",
+    "GW230904_051013",
+    "GW231206_233901",
+    "GW231221_135041",
+    "GW240629_145256",
+    "GW240919_061559",
+    "GW240920_124024",
+    "GW241006_015333",
+    "GW241231_054133"
+  ],
+  "event_count": 13,
+  "cold_exact": {
+    "independent_source_required": false,
+    "raw_inputs_only": true,
+    "canonical_intermediate_inputs_forbidden": true,
+    "cold_precheck": "PASS",
+    "smoke_timeout_s": 3600,
+    "heartbeat_s": 30,
+    "workers": 8,
+    "seed_namespace": "RIUD_COLD_EXACT_20260803"
+  },
+  "independent_replication": {
+    "required_controls_per_event": 1000,
+    "source_expansion_required": true,
+    "status": "SOURCE_EXPANSION_REQUIRED"
+  },
+  "observed_coordinate": "R26C30R6_observed_path_nodes/tau_s",
+  "A2_ANCHOR_USED": false,
+  "prohibitions": [
+    "path_reselection_outside_frozen_search",
+    "observed_path_copy",
+    "nearest_matching",
+    "tolerance_snapping",
+    "interpolation",
+    "score_only_reconstruction",
+    "family_relearning",
+    "result_based_source_selection"
+  ],
+  "frozen_inputs": [
+    {
+      "path": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\r27_r3_confirmatory_runner.py",
+      "exists": true,
+      "sha256": "238def7b42ed0829337c28876376dca4d83ca2f6a96db77b854970105de8f040"
+    },
+    {
+      "path": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\work\\r27_dynamic_null_rebuild.py",
+      "exists": true,
+      "sha256": "8eb70ffb3ba62b973191f524916f2d3e9bea261d7f07758181e14f33fceaad1d"
+    },
+    {
+      "path": "C:\\Users\\민재현\\Desktop\\prism\\RIUD_R26C30R6_LOCKED_SURVIVOR_PATH_DETECTOR_COHERENCE_R0_20260729\\run.py",
+      "exists": true,
+      "sha256": "75721ba68d7de9ef6de1b5126373fcdb317f5b531433cb512c09400268d34766"
+    },
+    {
+      "path": "C:\\Users\\민재현\\Desktop\\prism\\RIUD_R26C24R1_FIXED25_FULL_CANDIDATE_PATH_PATTERN_ATLAS_CORRECTED_20260728\\output\\R26C24R1_FIXED25_EVENT_PATTERN_ATLAS.csv",
+      "exists": true,
+      "sha256": "76ee4798f9f3e5ad4caaff46caf4f57dde706e80dfc0260d49bbb5d884bf50ba"
+    },
+    {
+      "path": "C:\\Users\\민재현\\Desktop\\prism\\RIUD_R26C27C1_STRICT_CENTRAL_PHYSICS_BANK_AND_ATTRIBUTION_R0_20260729\\output\\R26C27C1_16EVENT_STRICT_CENTRAL_PHYSICAL_BANK.csv",
+      "exists": true,
+      "sha256": "bb758ae54073b6c90263557e1d82764f0e0901b436d4ff8d4a549e7214ad6163"
+    }
+  ],
+  "scratch_root": "D:\\RIUD_R1_SCRATCH_20260803",
+  "disk": {
+    "drives": [
+      {
+        "drive": "D:\\",
+        "free_gb": 73.87478637695312,
+        "required_gb": 20.0,
+        "eligible": true
+      },
+      {
+        "drive": "C:\\",
+        "free_gb": 4.468463897705078,
+        "required_gb": 20.0,
+        "eligible": true
+      },
+      {
+        "drive": "G:\\",
+        "free_gb": 4.245037078857422,
+        "required_gb": 20.0,
+        "eligible": true
+      }
+    ],
+    "selected": "D:\\RIUD_R1_SCRATCH_20260803",
+    "required_gb": 20.0
+  }
+}

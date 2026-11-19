@@ -1,0 +1,7 @@
+GAP SCORE-FIELD PROFILE AUDIT R1
+N_GAP_RECORDS=16
+INTERMEDIATE_MAX_Z_BELOW_1_COUNT=8
+INTERPRETATION=The frozen candidate layer temporarily loses a z>=1 local peak or the path must cross a frequency jump/connection penalty; this is a representation-level transition trough, not proof of physical signal disappearance.
+NO_NEW_RULE=TRUE
+NO_REFIT=TRUE
+HOLDOUT30_ACCESSED=FALSE

@@ -1,0 +1,24 @@
+{
+  "experiment": "B7C80H_FINAL_SCORE_BRIDGE_PACKAGE",
+  "source_score_bridge": "B7C80G_R4_COMPARABLE_DETECTOR_SCORE_BRIDGE",
+  "legacy_event_count": 8,
+  "expected_detector_rows": 20,
+  "a2_ok_detector_rows": 19,
+  "a2_bad_std_detector_rows": 1,
+  "comparable_detector_rows": 19,
+  "detector_loose_matches_1e_minus_6": 19,
+  "detector_same_band_rows": 19,
+  "max_abs_detector_delta": 0.0,
+  "event_bridge_rows": 8,
+  "event_loose_matches_1e_minus_6": 8,
+  "event_same_band_rows": 8,
+  "unrestricted_original_event_best_differs_count": 1,
+  "unrestricted_diff_event": [
+    "GW200208_130117"
+  ],
+  "bad_std_zero_filled": false,
+  "physical_median_clipping_used": false,
+  "seobnrv4phm_final_paired_status": "B7C80F_FINAL_LOCK_OK_LEGACY8_SEOBNRV4PHM_PAIRED_STATUS_19OF20_ROWS_SCORED_8OF8_EVENTS_USABLE",
+  "score_bridge_verdict": "B7C80H_FINAL_SCORE_BRIDGE_LOCKED_A2_MATCHES_COMPARABLE_ORIGINAL_19OF19_ROWS_8OF8_EVENTS",
+  "final_boundary": "Current A2 native scores match the comparable original B7B1 native baseline scores for all 19 A2-scorable detector rows and all 8 event-level comparable bridges. GW200225 V1 remains not scorable due to bad std and is not zero-filled. The single unrestricted event-best difference is GW200208_130117 and is explained by unrestricted B7B1 event-best using a detector/path outside the current comparable expected detector set. This is a score bridge, not a new SEOB subtraction run."
+}

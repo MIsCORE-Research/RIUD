@@ -1,0 +1,9 @@
+{
+  "tau_start": "tau_start_ms",
+  "tau_end": "tau_end_ms",
+  "tau_center": null,
+  "f_start": "f_start_hz",
+  "f_end": "f_end_hz",
+  "f_center": "delta_f_hz",
+  "width": "delta_w_ms"
+}

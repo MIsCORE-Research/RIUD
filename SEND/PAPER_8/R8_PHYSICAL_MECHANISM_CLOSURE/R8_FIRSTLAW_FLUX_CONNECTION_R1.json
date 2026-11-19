@@ -1,0 +1,84 @@
+{
+  "R_STATUS": "PASS",
+  "HORIZON_SOURCE": "E:\\RIUD_ACTIVE_20260808\\MIsCORE_RIUD_PHYSICAL_MECHANISM_CLOSURE_R8_20260827\\R8_DERIVED_SOURCE_NATIVE\\R8_HORIZON_TIME_SERIES.csv",
+  "HORIZON_SOURCE_SHA256": "afbb0dadc609f87540c2972bcfc67aae26e88255b23b83fc58bb7527ed1aad7a",
+  "FLUX_SOURCE": "E:\\RIUD_ACTIVE_20260808\\MIsCORE_RIUD_PHYSICAL_MECHANISM_CLOSURE_R8_20260827\\R8_FLUX_RESULTS.csv",
+  "FLUX_SOURCE_SHA256": "ce6c6ab4e0ed461cd104e49c5d16b3c73cd8da5b3c6e77383b96d4b70c5fdb1d",
+  "EVENT_N": 10,
+  "EQUATION": "Delta_M = kappa*Delta_A/(8*pi) + Omega_H*Delta_J + residual",
+  "DERIVED_RULES": [
+    "A=16*pi*M_irr^2",
+    "J=chi*M_CH^2",
+    "Kerr kappa and Omega_H at finite-interval midpoint"
+  ],
+  "FIRSTLAW_RESIDUAL_MEDIAN": -0.0001673248971031053,
+  "FIRSTLAW_RESIDUAL_MAX_ABS": 0.0010071513636610296,
+  "AREA_ABS_FRACTION_MEDIAN": 0.5666173173248137,
+  "SPIN_ABS_FRACTION_MEDIAN": 0.4333826826751862,
+  "DESCRIPTIVE_SPEARMAN": {
+    "DELTA_M__INFINITY_ENERGY_FLUX_POST": {
+      "rho": -0.5151515151515151,
+      "nominal_p": 0.1275528697032343,
+      "N": 10
+    },
+    "DELTA_M__INFINITY_JZ_FLUX_POST": {
+      "rho": -0.29696969696969694,
+      "nominal_p": 0.40470167127015705,
+      "N": 10
+    },
+    "DELTA_AREA__INFINITY_ENERGY_FLUX_POST": {
+      "rho": -0.6,
+      "nominal_p": 0.06668799999999998,
+      "N": 10
+    },
+    "DELTA_AREA__INFINITY_JZ_FLUX_POST": {
+      "rho": -0.33333333333333326,
+      "nominal_p": 0.3465935070873343,
+      "N": 10
+    },
+    "DELTA_J__INFINITY_ENERGY_FLUX_POST": {
+      "rho": -0.8060606060606059,
+      "nominal_p": 0.004862061101964608,
+      "N": 10
+    },
+    "DELTA_J__INFINITY_JZ_FLUX_POST": {
+      "rho": -0.7333333333333332,
+      "nominal_p": 0.015800596250571577,
+      "N": 10
+    },
+    "AREA_FIRSTLAW_TERM__INFINITY_ENERGY_FLUX_POST": {
+      "rho": -0.6606060606060605,
+      "nominal_p": 0.03758837757140934,
+      "N": 10
+    },
+    "AREA_FIRSTLAW_TERM__INFINITY_JZ_FLUX_POST": {
+      "rho": -0.4424242424242424,
+      "nominal_p": 0.2004226867119421,
+      "N": 10
+    },
+    "SPIN_FIRSTLAW_TERM__INFINITY_ENERGY_FLUX_POST": {
+      "rho": -0.09090909090909088,
+      "nominal_p": 0.8027717312071619,
+      "N": 10
+    },
+    "SPIN_FIRSTLAW_TERM__INFINITY_JZ_FLUX_POST": {
+      "rho": -0.09090909090909088,
+      "nominal_p": 0.8027717312071619,
+      "N": 10
+    },
+    "FIRSTLAW_RESIDUAL__INFINITY_ENERGY_FLUX_POST": {
+      "rho": 0.7818181818181817,
+      "nominal_p": 0.007547007781067879,
+      "N": 10
+    },
+    "FIRSTLAW_RESIDUAL__INFINITY_JZ_FLUX_POST": {
+      "rho": 0.6363636363636362,
+      "nominal_p": 0.047911726129975435,
+      "N": 10
+    }
+  },
+  "FLUX_SCOPE_WARNING": "Infinity flux columns are post-integrated waveform-derived quantities and are not an affine-matched absorbed horizon flux time series.",
+  "VERDICT": "Finite-interval horizon mass change is algebraically closed by area and spin terms within small residuals; the available flux columns do not by themselves close a causal local shear-to-flux law.",
+  "NO_RIUD_REFIT": true,
+  "NO_HOLDOUT_ACCESS": true
+}

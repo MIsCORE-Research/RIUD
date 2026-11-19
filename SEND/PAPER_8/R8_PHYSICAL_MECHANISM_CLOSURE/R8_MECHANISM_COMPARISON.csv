@@ -1,0 +1,9 @@
+MECHANISM,N_TESTED,R40_MEMORY_REDUCTION,REASON,SUPPORT
+HORIZON_STATE_EVOLUTION,10,NOT_SCORED,source-native state present; common likelihood binding absent,PARTIAL_SUPPORTED
+HORIZON_FLUX,10 horizon proxies + 10 waveform-derived infinity flux,NOT_SCORED,standard SXS waveform flux routines applied; horizon absorption remains a separate proxy,PARTIAL_SUPPORTED
+IRREDUCIBLE_MASS_AREA,10,NOT_SCORED,"area evolution measurable, mechanism-to-RIUD causal closure absent",PARTIAL_SUPPORTED
+REMNANT_RELAXATION,10,NOT_SCORED,remnant metadata and late relaxation measurable,PARTIAL_SUPPORTED
+NONLINEAR_MODE_INTERACTION,10,NOT_SCORED,cohort-wide 2:1 locking and phase relation not stable under fixed diagnostic,NOT_SUPPORTED
+NONNORMAL_SOURCE_DYNAMICS,0,NOT_SCORED,source-native non-normal operator absent,NOT_TESTABLE_WITH_AVAILABLE_DATA
+HIDDEN_SOURCE_STATE,10,NOT_ESTABLISHED,state variables exist but no common exact R40 likelihood contract,PARTIAL_SUPPORTED
+NR_NATIVE_RIUD_STRUCTURE,10,NOT_SCORED,native structural replay only,PARTIAL_SUPPORTED

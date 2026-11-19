@@ -1,0 +1,2 @@
+events,controls_per_event,selector_runs,observed_zero_direction_real,observed_resultant_length,observed_mean_phase_rad,primary_draws,primary_exceed,primary_empirical_p,primary_null_q99,primary_null_max,joint_exceed,joint_empirical_p,verdict
+13,200,2600,0.3671572579932161,0.3677036394289937,0.0545214997095115,100000,0,9.99990000099999e-06,0.16333814077083206,0.34150643201659386,0,9.99990000099999e-06,DIRECT_COMPLEX_PHASE_SUPPORT_SURVIVES_EXACT_SELECTOR_AWARE_NULL

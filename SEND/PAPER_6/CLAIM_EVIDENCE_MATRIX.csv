@@ -1,0 +1,8 @@
+CLAIM,STATUS,EVIDENCE
+frequency family separation,SUPPORTED_DESCRIPTIVE,K=2 MAG/SHAPE census
+frequency-rate relation,EMPIRICAL_CANDIDATE_ONLY,985 transition joins
+pre-transition prediction,NOT_SUPPORTED_STRONGLY,OOF accuracy 0.3956; null p=0.683
+geometry increment,NOT_SUPPORTED,No incremental support
+R40 physical rate law,INHERITED_FROZEN,S/eta/lambda/p retained
+H5 fixed replay,PASS,MAG 5/5; SHAPE 4/4; ABC/GAP 4/4
+new physics/direct Einstein derivation,NOT_CLAIMED,Out of scope

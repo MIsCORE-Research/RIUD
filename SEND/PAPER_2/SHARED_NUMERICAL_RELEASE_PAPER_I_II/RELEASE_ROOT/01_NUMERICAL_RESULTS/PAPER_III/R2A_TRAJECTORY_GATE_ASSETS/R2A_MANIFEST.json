@@ -1,0 +1,23 @@
+{
+  "stage": "R2A_PHENOMENOLOGY_GATE_COORDINATE_FREEZE",
+  "verdict": "RIUD_PHENOMENOLOGY_GATE_COORDINATES_FROZEN_READY_FOR_GR_LOCAL_EXTRACTION",
+  "development_events": 61,
+  "branch_nodes": 74,
+  "gate_rows": 1642,
+  "coordinate_binding": {
+    "tau_start": "tau_start_ms",
+    "tau_end": "tau_end_ms",
+    "tau_center": null,
+    "f_start": "f_start_hz",
+    "f_end": "f_end_hz",
+    "f_center": "delta_f_hz",
+    "width": "delta_w_ms"
+  },
+  "time_coverage": 1.0,
+  "frequency_coverage": 1.0,
+  "freeze_id_sha256": "2330a8d410b6650347af29c236c918daa6d1d60aab32d3bdbd3b1f9e800c4cf7",
+  "gr_local_opened": false,
+  "physical_parameter_attribution": false,
+  "holdout70_results_read": false,
+  "holdout70_file_opened": false
+}

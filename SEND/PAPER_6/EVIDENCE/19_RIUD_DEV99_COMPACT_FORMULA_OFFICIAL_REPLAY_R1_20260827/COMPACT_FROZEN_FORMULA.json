@@ -1,0 +1,116 @@
+{
+  "status": "DEV99_COMPACT_FROZEN_FORMULA",
+  "source_rule_lock": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_FORENSIC_INFORMED_RULE_LOCK_R0_20260826",
+  "source_model_lock": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_FORENSIC_INFORMED_BRANCH_LOCK_HOLDOUT5_APPLY_R5_20260826\\DEV99_LOCKED_MODEL_COEFFICIENTS.csv",
+  "mag": {
+    "family_rule": "K=2; frozen frequency-variation fields only",
+    "features": [
+      "frequency_span_hz",
+      "frequency_total_variation_hz",
+      "abs_net_change_hz",
+      "rate_mad_hz_per_s"
+    ],
+    "application_model_features": [
+      "S_K5",
+      "f_total_variation_hz",
+      "network_z_median",
+      "f_turns",
+      "support_complexity"
+    ],
+    "coefficients": {
+      "intercept": 0.6252753405791113,
+      "S_K5": 0.11190848908902203,
+      "f_total_variation_hz": -0.25829593337044654,
+      "network_z_median": -0.04075116908267855,
+      "f_turns": -0.055737569477874754,
+      "support_complexity": -0.1287602615712552
+    },
+    "probability": "p_mag2 = sigmoid(logit_mag)",
+    "decision": "FREQ_MAG_2 if p_mag2 >= 0.5 else FREQ_MAG_1"
+  },
+  "shape": {
+    "family_rule": "K=2; within-event normalized f_shape_00..f_shape_31 only",
+    "features": [
+      "f_shape_00",
+      "f_shape_01",
+      "f_shape_02",
+      "f_shape_03",
+      "f_shape_04",
+      "f_shape_05",
+      "f_shape_06",
+      "f_shape_07",
+      "f_shape_08",
+      "f_shape_09",
+      "f_shape_10",
+      "f_shape_11",
+      "f_shape_12",
+      "f_shape_13",
+      "f_shape_14",
+      "f_shape_15",
+      "f_shape_16",
+      "f_shape_17",
+      "f_shape_18",
+      "f_shape_19",
+      "f_shape_20",
+      "f_shape_21",
+      "f_shape_22",
+      "f_shape_23",
+      "f_shape_24",
+      "f_shape_25",
+      "f_shape_26",
+      "f_shape_27",
+      "f_shape_28",
+      "f_shape_29",
+      "f_shape_30",
+      "f_shape_31"
+    ],
+    "application_model_features": [
+      "f_turns",
+      "transition_entropy",
+      "network_z_median",
+      "support_complexity",
+      "MAG2",
+      "ABC_B",
+      "ABC_C",
+      "ABC_OTHER",
+      "MAG2_X_ABC_B",
+      "MAG2_X_ABC_C",
+      "MAG2_X_ABC_OTHER"
+    ],
+    "coefficients": {
+      "intercept": -0.596964714165367,
+      "f_turns": 0.08130927169026472,
+      "transition_entropy": -0.07108151393761716,
+      "network_z_median": -0.050562664183970665,
+      "support_complexity": 0.0012501039571087187,
+      "MAG2": -0.004270395289538118,
+      "ABC_B": 0.012219925507401417,
+      "ABC_C": -0.006990858295139147,
+      "ABC_OTHER": -0.01462797851438039,
+      "MAG2_X_ABC_B": 0.019733275854400652,
+      "MAG2_X_ABC_C": -0.012084775199117666,
+      "MAG2_X_ABC_OTHER": -0.01462797851438039
+    },
+    "probability": "p_shape2 = sigmoid(logit_shape)",
+    "decision": "FREQ_SHAPE_2 if p_shape2 >= 0.5 else FREQ_SHAPE_1"
+  },
+  "abc": {
+    "A": "GAP_TIME < T0 < MAX_FLOW",
+    "B": "GAP_TIME < MAX_FLOW < T0",
+    "C": "MAX_FLOW < GAP_TIME < T0",
+    "OTHER": "all other or unavailable orderings"
+  },
+  "gap_branch": {
+    "definition": "predicted MAG2 AND ABC in {C, OTHER} AND path_nodes <= 9",
+    "role": "forensic branch flag; not a causal or refitted GAP law"
+  },
+  "scope": {
+    "dev99_only_fit": true,
+    "holdout5_used_for_fit": false,
+    "no_refit": true,
+    "no_new_map": true,
+    "no_new_path": true,
+    "holdout30_accessed": false,
+    "r9_outputs_reused": true
+  }
+}

@@ -1,0 +1,7 @@
+R38 CORRECTION / FREEZE
+The original R38 NULL99 and NULL9999 outputs are unchanged.
+The prior V3 label was a classification carry-over bug from the 99-replicate stop rule.
+Corrected full-lineage result: 5/9999, p=0.0006.
+Corrected fixed-score result: 0/9999, p=0.0001.
+No DEV recalculation was performed. Holdout40 was not opened.
+NEXT=HOLDOUT40_ONE_SHOT_FROZEN_SCORE_ONLY

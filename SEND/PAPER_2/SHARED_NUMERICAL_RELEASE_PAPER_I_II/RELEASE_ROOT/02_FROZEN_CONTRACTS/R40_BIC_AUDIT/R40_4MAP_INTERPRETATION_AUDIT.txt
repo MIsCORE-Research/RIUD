@@ -1,0 +1,23 @@
+R40 4-MAP INTERPRETATION AUDIT
+R_STATUS=PASS
+BIC_SEMANTICS_VERDICT=BIC_PENALTY_INAPPROPRIATE_FOR_FROZEN_REPLAY
+MAPS_POSITIVE_DELTA_LOGLIK=4
+MAPS_SAME_DIRECTION=4
+FORMER_SCIENTIFIC_VERDICT=MIXED
+REASSESSMENT=The former MIXED label was driven by local BIC signs. Frozen predictive delta-loglikelihood is positive in all four maps and active-ordering delta is positive in all four maps.
+SCIENTIFIC_INTERPRETATION=COMMON_LAW_DIRECTIONAL_SUPPORT_4_OF_4
+LIMIT=This is directional frozen-replay support, not a new significance test or a claim that all error metrics improve in every map.
+NEW_LAW_SEARCH=FALSE
+GAMMA_REFIT=FALSE
+NEW_NULL=FALSE
+HOLDOUT40_OPENED=FALSE
+GR97_STATUS=HELD
+GAP_STATUS=HELD
+SXS_STATUS=HELD
+NEXT=STOP_FOR_USER_REVIEW
+
+MAP_ID         MAP_NAME  N_EVENTS  N_TRANSITIONS  LAW_SUPPORT_EVENTS  LAW_TRIAL_ROWS   LOGLIK_P0   LOGLIK_P1      BIC_P0      BIC_P1  DELTA_BIC  ACTIVE_SPEARMAN_P0  ACTIVE_SPEARMAN_P1  DELTA_ACTIVE_SPEARMAN  ACTIVE_KENDALL_P1   MAE_P1  RMSE_P1  OBSERVED_ACTIVE_FRACTION  PREDICTED_ACTIVE_FRACTION  LAW_DIRECTION_OK  P1_BETTER_BIC  P1_BETTER_ERROR  DELTA_LOGLIK  MEAN_DELTA_LOGPROB_PER_TRANSITION  EXISTING_DELTA_BIC  P1_FROZEN_GAMMA_PENALIZED_AGAIN
+    W1 W1_START_TO_PEAK        97            723                  96            1023 -554.375001 -551.776628 1254.290392 1256.024141  -1.733749            0.382965            0.507536               0.124571           0.373619 0.264575 0.293244                  0.660791                   0.642587              True          False             True      2.598373                           0.002540           -1.733749                             True
+    W2   W2_PEAK_TO_END        94            163                  93             461 -272.142302 -267.543529  673.085964  670.021815   3.064149            0.869907            0.875538               0.005631           0.713476 0.282968 0.346984                  0.700835                   0.436394              True           True            False      4.598773                           0.009976            3.064149                             True
+    W3   W3_START_TO_MT        97            725                  96            1016 -549.301060 -546.839152 1243.998321 1245.998134  -1.999813            0.453322            0.526905               0.073583           0.392589 0.269790 0.303737                  0.656452                   0.643463              True          False             True      2.461908                           0.002423           -1.999813                             True
+    W4     W4_MT_TO_END        92            250                  91             468 -277.216244 -272.481005  683.550321  680.228312   3.322009            0.879306            0.880846               0.001539           0.714407 0.284346 0.347489                  0.699063                   0.436894              True           True            False      4.735239                           0.010118            3.322009                             True

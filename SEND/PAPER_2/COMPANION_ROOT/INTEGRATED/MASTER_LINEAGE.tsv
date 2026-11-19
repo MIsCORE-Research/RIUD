@@ -1,0 +1,18 @@
+STAGE_ID	STAGE	ROLE	ASSET_AREA	STATUS
+0	FINAL_DEVELOPMENT_INPUT_FREEZE	frozen upstream inputs	05_SHARED_FROZEN_ASSETS	INCLUDED
+1	DEV99 R10G	population path development	04_PAPER_IV	INCLUDED
+2	PATH99 R10H	path authority	04_PAPER_IV	INCLUDED
+3	R5-R10 endogenous dynamics	state/history lineage	04_PAPER_IV	INCLUDED
+4	R14-R25 physical discovery/control	physical discovery records	04_PAPER_IV	INCLUDED
+5	R26 three-phase	frozen phase signatures	04_PAPER_IV	INCLUDED
+6	R27/R27A autonomous law	autonomous law records	04_PAPER_IV	INCLUDED
+7	R28/R29 null and physics-free core	null/core records	04_PAPER_IV	INCLUDED
+8	R30C-R31R state coordinate and ratio balance	state/physics audit	04_PAPER_IV	INCLUDED
+9	R32-R38 physical contrast to frozen S	frozen S lineage	04_PAPER_IV	INCLUDED
+10	R39/R40 physical clock	frozen clock law	04_PAPER_IV	INCLUDED
+11	R41 frozen-law null	law validation	04_PAPER_IV	INCLUDED
+12	R40 four-map replay and BIC audit	map replay	08_MASTER_RESULTS	INCLUDED
+13	Holdout5 coverage/global coordinate	materialization	04_PAPER_IV	INCLUDED
+14	Holdout5 exact frozen replay	R6/R8/R9/R40	08_MASTER_RESULTS	INCLUDED
+15	W4 power audit 9999	underpowered ordering audit	08_MASTER_RESULTS	INCLUDED
+16	Combined101 characterization	final characterization	08_MASTER_RESULTS	INCLUDED

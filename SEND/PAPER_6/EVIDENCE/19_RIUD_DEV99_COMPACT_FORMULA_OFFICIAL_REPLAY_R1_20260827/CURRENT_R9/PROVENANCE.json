@@ -1,0 +1,21 @@
+{
+  "status": "PASS_DEV99_LOCKED_HOLDOUT5_OFFICIAL_REPLAY",
+  "source_r7": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_FORENSIC_INFORMED_BRANCH_LOCK_HOLDOUT5_APPLY_R7_20260827\\HOLDOUT5_OFFICIAL_REPLAY_PREDICTED_CONFIRMED.csv",
+  "source_r7_sha256": "335491ab5871da83aa93ac0302d6ad018e158854aeaf194e7198cd6e8f9781a0",
+  "events": [
+    "GW241114_024711",
+    "GW240830_211120",
+    "GW240612_081540",
+    "GW241130_110422",
+    "GW250119_190238"
+  ],
+  "label_comparison": "NOT_AVAILABLE",
+  "mag_prediction_total": 5,
+  "shape_prediction_total": 4,
+  "abc_applied_total": 4,
+  "gap_dependent_event": "GW240612_081540",
+  "no_refit": true,
+  "no_new_map": true,
+  "no_new_path": true,
+  "holdout30_accessed": false
+}

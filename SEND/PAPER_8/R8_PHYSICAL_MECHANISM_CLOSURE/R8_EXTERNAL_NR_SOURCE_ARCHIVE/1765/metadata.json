@@ -1,0 +1,117 @@
+{
+    "simulation_name": "0276/Lev3",
+    "keywords": [],
+    "alternative_names": [
+        "BFI:q4_7d:0276",
+        "SXS:BBH:1765"
+    ],
+    "metadata_format_revision": 2,
+    "metadata_content_revision": 1,
+    "internal_minor_version": 0,
+    "internal_changelog": {},
+    "citation_dois": [
+        "10.1103/PhysRevResearch.1.033015"
+    ],
+    "initial_separation": 14.5950927734,
+    "initial_orbital_frequency": 0.016199715714,
+    "initial_adot": 0.0002844621720252,
+    "initial_ADM_energy": 0.9943614628851237,
+    "initial_ADM_linear_momentum": [
+        7.708855e-09,
+        -9.0776412e-09,
+        1.08148e-09
+    ],
+    "initial_ADM_angular_momentum": [
+        0.0730988200665714,
+        0.0619430428630755,
+        0.7155699103487281
+    ],
+    "initial_dimensionless_spin1": [
+        0.0574498548384543,
+        0.083655362103303,
+        -0.2308490994745835
+    ],
+    "initial_dimensionless_spin2": [
+        0.6289308532831998,
+        0.3736889006705508,
+        0.1810847507175924
+    ],
+    "initial_data_type": "BBH_SKS",
+    "initial_mass1": 0.7468281267317274,
+    "initial_mass2": 0.2531718763671293,
+    "object1": "bh",
+    "object2": "bh",
+    "initial_position1": [
+        3.7139767477956576,
+        0.0271103949910382,
+        -0.005040180280501
+    ],
+    "initial_position2": [
+        -10.881116025604342,
+        0.0271103949910382,
+        -0.005040180280501
+    ],
+    "t_relaxed_algorithm": {
+        "algorithm": "HHT"
+    },
+    "relaxation_time": 1309.0,
+    "reference_time": 1309.0,
+    "reference_dimensionless_spin1": [
+        -0.02000647559844417,
+        0.11259489645328119,
+        -0.224693661706126
+    ],
+    "reference_mass1": 0.746879236655152,
+    "reference_dimensionless_spin2": [
+        -0.5881590511779987,
+        0.3877130153596769,
+        0.26740617053509164
+    ],
+    "reference_mass2": 0.2531943524032304,
+    "reference_position1": [
+        -2.851565415250557,
+        -2.1977647195629237,
+        0.35354952155112696
+    ],
+    "reference_position2": [
+        8.32992913455786,
+        6.4989580371768865,
+        -1.0332892763742403
+    ],
+    "reference_orbital_frequency": [
+        0.0026227733932264585,
+        -0.0004978489289954295,
+        0.01802435317567189
+    ],
+    "common_horizon_time": 4947.817382819531,
+    "number_of_orbits_from_start": 19.07957628390075,
+    "number_of_orbits_from_reference_time": 15.478957779052525,
+    "reference_eccentricity": 0.0003002,
+    "reference_mean_anomaly": 1.685482,
+    "remnant_mass": 0.9734078084244692,
+    "remnant_dimensionless_spin": [
+        0.049411520490899155,
+        0.03453528559547284,
+        0.45205539876211004
+    ],
+    "remnant_velocity": [
+        0.0004918278475095349,
+        -0.0005670769438985401,
+        0.0009322360684094449
+    ],
+    "spec_revisions": [
+        "InitialCommit-30548-g8a39246"
+    ],
+    "spells_revision": "8a392465d586c8ca817d062b58522dabb63df692",
+    "date_run_earliest": "2017-09-19T15:58:41",
+    "date_run_latest": "2017-10-27T04:40:25",
+    "date_link_earliest": "2017-07-31T18:06:32-05:00",
+    "date_postprocessing": "2025-01-28T08:30:22.268793-08:00",
+    "pbj_info": {
+        "base_lev": "Lev3",
+        "transition_time": 1075.716,
+        "base_lev_bitwise_identical": "true"
+    },
+    "job_archiver_email": "fmh33@cornell.edu",
+    "postprocess_revision": 1
+}

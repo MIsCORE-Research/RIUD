@@ -1,0 +1,31 @@
+B7C80H FINAL SCORE BRIDGE PACKAGE
+
+Verdict:
+B7C80H_FINAL_SCORE_BRIDGE_LOCKED_A2_MATCHES_COMPARABLE_ORIGINAL_19OF19_ROWS_8OF8_EVENTS
+
+What this closes:
+- Current A2 native score vs original/native B7B1 score bridge.
+- Comparable detector rows: 19
+- Detector matches at 1e-6: 19/19
+- Event matches at 1e-6: 8/8
+- Event same-band rows: 8/8
+- Bad-std rows not zero-filled: 1
+- PE median clipping used: false
+
+Important correction:
+B7C80G R3 compared A2 event-best against unrestricted B7B1 event-best.
+That created one review case:
+GW200208_130117
+
+B7C80G R4 corrected this by restricting the original score to exact A2-comparable expected detector rows.
+The comparable original score for GW200208_130117 is 5.520082627687134, matching current A2.
+The unrestricted B7B1 event-best was 6.70496793706887, outside the comparable detector/path scope.
+
+Allowed wording:
+Current A2 native scores match the comparable original B7B1 native baseline for 19/19 A2-scorable detector rows and 8/8 comparable event bridges.
+
+Forbidden wording:
+- 20/20 scored rows.
+- GW200225 V1 scored as zero.
+- Unrestricted event-best equals comparable detector-set event-best.
+- This proves QG/Beyond-GR.

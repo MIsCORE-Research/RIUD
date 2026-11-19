@@ -1,0 +1,31 @@
+{
+  "LINEAR_PREDICTOR": "eta_e,j = base_log_rate_j(u) + beta2*I(run=2) + beta3*I(run=3) + beta4*I(run=4plus) + gamma2*I(state!=N0,AGE2) + gamma3*I(state!=N0,AGE3PLUS) + gamma_ALL*S_e",
+  "BASE96_P1_COEFFICIENTS": {
+    "beta2": -0.304588116941319,
+    "beta3": -0.0167449766916816,
+    "beta4": 0.3713520014548632,
+    "gamma2": 0.1425553247852259,
+    "gamma3": -0.3177555096604296
+  },
+  "PHYSICAL_COEFFICIENT": {
+    "gamma_ALL": 0.3162354634393393
+  },
+  "PROGRESSION_SOURCE": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_HISTORY_AWARE_MULTISTATE_FLOW_LAW_DISCOVERY_R9_20260815\\BEST_HISTORY_AWARE_FLOW_EQUATION.json",
+  "PROGRESSION_SOURCE_SHA256": "d6a3da3b896d6496a4a91bf13bcd7140b179686cb4a8c9f2f4bfc060ef7a1ac4",
+  "PROGRESSION_PROFILE": "R7 F7 K01/K1G/KGR/KRG frozen read-only interpolation on u[k+1]",
+  "ALLOWED_TRANSITION_FAMILIES": {
+    "ENTRY": "N0->A1",
+    "REENTRY": "G->AR",
+    "EXIT": [
+      "A1->G",
+      "AR->G"
+    ]
+  },
+  "ILLEGAL_TRANSITIONS": "not generated",
+  "LINK_FUNCTION": "lambda_e,j=exp(eta_e,j); p_e,j=1-exp(-lambda_e,j*du)",
+  "DU": 0.031250000000000125,
+  "PARAMETER_COUNT_TOTAL": 22,
+  "PARAMETER_COUNT_R7_F7_FROZEN": 16,
+  "PARAMETER_COUNT_M3_BASE96_REFIT": 5,
+  "PARAMETER_COUNT_PHYSICAL": 1
+}

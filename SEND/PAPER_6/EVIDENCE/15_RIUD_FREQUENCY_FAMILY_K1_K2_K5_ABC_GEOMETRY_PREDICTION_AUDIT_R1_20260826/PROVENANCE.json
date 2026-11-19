@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-08-26T13:40:28.869553+00:00",
+  "input": "E:\\RIUD_ACTIVE_20260808\\RIUD_FREQUENCY_FAMILY_K1_K2_K5_ABC_GEOMETRY_EXPLORATION_ASSEMBLED_R2_20260826\\01_FREE_EXPLORATION\\EXPLORATION_EVENT_TABLE.csv",
+  "input_sha256": "4a9d9dd12d36a96de39fd316081269bbcebc582144080ee65991bee53ce2a313",
+  "path99": "E:\\RIUD_ACTIVE_20260808\\RIUD_PATH99_EXACT_FREEZE_R10H_20260811\\01_FREEZE\\PATH99_EVENT_CENSUS_FROZEN.csv",
+  "path99_sha256": "72a9c70aa161adb2e6174014f08b051c2cbb4483e9125aff9855292bd2bcd799",
+  "path_found": 98,
+  "no_path": 1,
+  "s_missing_path_rows": 2,
+  "strict_all_axes_available": 16,
+  "imputation": false,
+  "new_map": false,
+  "new_path": false,
+  "causal_claim": false,
+  "holdout30_accessed": false
+}

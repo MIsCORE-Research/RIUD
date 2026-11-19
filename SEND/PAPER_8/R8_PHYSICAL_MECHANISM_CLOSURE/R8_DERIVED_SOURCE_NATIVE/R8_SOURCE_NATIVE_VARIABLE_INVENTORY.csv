@@ -1,0 +1,11 @@
+COMMON_HORIZON_TIME_FIELD,EVENT,FLUX_INFINITY_PRESENT,HORIZON_FILE,HORIZON_VARIABLES_PRESENT,MODES_PRESENT,SOURCE_TIME,WAVEFORM_FILE
+metadata.json:common_horizon_time,SXS:BBH:0180,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:0513,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:0526,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:1144,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:1765,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:2092,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:2497,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:2499,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:2505,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5
+metadata.json:common_horizon_time,SXS:BBH:2506,FALSE,Horizons.h5,"AhC ArealMass,ChristodoulouMass,chiMagInertial,CoordCenterInertial","h22,h44",native dimensionless SXS time,Strain_N2.h5

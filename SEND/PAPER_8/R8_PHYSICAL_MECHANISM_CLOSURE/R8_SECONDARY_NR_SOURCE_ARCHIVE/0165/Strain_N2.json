@@ -1,0 +1,84 @@
+{
+    "sxs_format": "rotating_paired_diff_multishuffle_bzip2",
+    "data_info": {
+        "data_type": "h",
+        "m_is_scaled_out": true,
+        "r_is_scaled_out": true,
+        "spin_weight": -2,
+        "ell_min": 2,
+        "ell_max": 8
+    },
+    "version_info": {
+        "python": "3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]",
+        "numpy": "1.26.4",
+        "scipy": "1.13.1",
+        "h5py": "3.12.1",
+        "numba": "0.60.0",
+        "quaternion": "2024.0.3",
+        "spherical_functions": "2022.4.5",
+        "spinsfast": "2022.4.6",
+        "scri": "2022.9.0",
+        "quaternionic": "1.0.13",
+        "spherical": "1.0.14",
+        "sxs": "2024.0.25",
+        "spec_version_hist": [
+            [
+                "ef51849550a1d8a5bbdd810c7debf0dd839e86dd",
+                "Overall sign change in complex strain h."
+            ]
+        ]
+    },
+    "validation": {
+        "h5_file_size": 3170348,
+        "n_times": 10585,
+        "md5sum": "afc44c54b2b9c4e76cecfbee03ed01e4"
+    },
+    "modifications": {
+        "extrapolate": {
+            "CoordRadii": [
+                "0100",
+                "0102",
+                "0106",
+                "0109",
+                "0113",
+                "0116",
+                "0121",
+                "0125",
+                "0130",
+                "0135",
+                "0140",
+                "0146",
+                "0153",
+                "0160",
+                "0168",
+                "0176",
+                "0186",
+                "0197",
+                "0209",
+                "0222",
+                "0237",
+                "0255",
+                "0275",
+                "0300"
+            ]
+        },
+        "transform": {
+            "space_translation": [
+                -0.02683102356706606,
+                0.07875625945874232,
+                0.29382976747482925
+            ],
+            "boost_velocity": [
+                -1.4001903799197463e-05,
+                -7.373748769381272e-05,
+                0.0011463136401287473
+            ]
+        },
+        "add_memory": {
+            "integration_start_time": 790.0
+        },
+        "truncate": {
+            "tol": 1e-10
+        }
+    }
+}

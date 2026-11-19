@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-08-26T13:49:52.389608+00:00",
+  "base_package": "E:\\RIUD_ACTIVE_20260808\\RIUD_FREQUENCY_FAMILY_K1_K2_K5_ABC_GEOMETRY_INTEGRATED_RELATION_ASSEMBLED_R2_20260826",
+  "prediction_audit": "E:\\RIUD_ACTIVE_20260808\\RIUD_FREQUENCY_FAMILY_K1_K2_K5_ABC_GEOMETRY_PREDICTION_AUDIT_R1_20260826",
+  "mismatch_audit": "E:\\RIUD_ACTIVE_20260808\\RIUD_FREQUENCY_FAMILY_K1_K2_K5_ABC_GEOMETRY_MISMATCH_FORENSIC_R1_20260826",
+  "events_in_exploration": 98,
+  "path_found": 98,
+  "no_path": 1,
+  "full_input_mismatch_counts": {
+    "GAP_ORDER_MAXFLOW": 3,
+    "GAP_SIDE_T0": 1,
+    "MAG": 6,
+    "SHAPE": 30
+  },
+  "missing_rows_in_event_table": 99,
+  "new_map": false,
+  "new_path": false,
+  "imputation": false,
+  "causal_claim": false,
+  "holdout30_accessed": false
+}

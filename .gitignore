@@ -1,0 +1,34 @@
+# ==========================================
+# MIsCORE-RIUD GitHub Exclusion Specification
+# ==========================================
+
+# 1. Master Historical Archive (313.5 GB, 253,045 files)
+# Must NEVER be committed to Git/GitHub; deposited separately via Zenodo
+ARCHIVE/
+archive/
+00_ROOT_INDEX.md
+
+# 2. Local personal and external download directories
+*[가-힣]*/
+TeraBoxDownload/
+System Volume Information/
+$RECYCLE.BIN/
+
+# 3. Dynamic output and cache artifacts
+fast_track_r40/output/
+fast_track_r40/test_output/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 4. OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Internal audit report
+MIsCORE_RIUD_FINAL_AUDIT_REPORT.md

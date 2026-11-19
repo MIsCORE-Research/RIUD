@@ -1,0 +1,12 @@
+{
+  "R_STATUS": "PAPER5_COMPLETE_MASTER_AUDIT_PASS",
+  "revision": "R4",
+  "source_catalog": "E:\\RIUD_ACTIVE_20260808\\RIUD_PAPER5_COMPLETE_LINEAGE_SUMMARY_R1_20260822\\PAPER5_STAGE_CATALOG.tsv",
+  "base_catalog_rows": 62,
+  "class_counts": {"MAIN":18,"DIAGNOSTIC":30,"SUPERSEDED":11,"TECHNICAL_HOLD":3},
+  "append_catalog": "E:\\RIUD_ACTIVE_20260808\\RIUD_PAPER5_AUTHORITATIVE_FREEZE_R2_20260824\\PAPER5_STAGE_CATALOG_APPEND_20260824.tsv",
+  "append_rows": 4,
+  "count_conflict_resolution": "Direct TSV count supersedes prior prose claim of 63; base lineage is 62 and append branches are separate.",
+  "scientific_rerun": false,
+  "holdout30_accessed": false
+}

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "event": "GW150914_095045",
+  "controls_requested": 3,
+  "controls_complete": 3,
+  "control_summaries": [
+    {
+      "status": "PASS",
+      "event": "GW150914_095045",
+      "control_index": 0,
+      "null_id": "R3_MATCHED_GW150914_095045_0000",
+      "window_start_gps": 1126258438.0,
+      "raw_path": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\raw_checkpoints\\control_0000.npz",
+      "raw_sha256": "b555c3e751313bef86e905e878eb17e69620c96df53bd7338a1919d0fcca4b00",
+      "trajectory_file": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\control_0000.csv",
+      "trajectory_sha256": "7a7647ab79bcfaf1ef9de1f0644b0d0e2bac7b50a954ea061ce0f75b55615153",
+      "family": "quasi-stationary",
+      "path_nodes": 4,
+      "candidate_count": 20,
+      "path_search_executed": true,
+      "family_classification_control_derived": true,
+      "allowed_families": [
+        "quasi-stationary"
+      ],
+      "r2_gps_duplicate": false,
+      "r2_raw_hash_duplicate": false
+    },
+    {
+      "status": "PASS",
+      "event": "GW150914_095045",
+      "control_index": 1,
+      "null_id": "R3_MATCHED_GW150914_095045_0001",
+      "window_start_gps": 1126258438.25,
+      "raw_path": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\raw_checkpoints\\control_0001.npz",
+      "raw_sha256": "d5ae629ae1f172d8b166de71d003be94b00a717c70987ebd2bee9a1381f46f2b",
+      "trajectory_file": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\control_0001.csv",
+      "trajectory_sha256": "aa7a087b5cb83d7256c67d8c28c079ed83049f5e60382959b9d8853a8098191d",
+      "family": "NONE",
+      "path_nodes": 0,
+      "candidate_count": 0,
+      "path_search_executed": true,
+      "family_classification_control_derived": true,
+      "allowed_families": [
+        "quasi-stationary"
+      ],
+      "r2_gps_duplicate": false,
+      "r2_raw_hash_duplicate": false
+    },
+    {
+      "status": "PASS",
+      "event": "GW150914_095045",
+      "control_index": 2,
+      "null_id": "R3_MATCHED_GW150914_095045_0002",
+      "window_start_gps": 1126258438.5,
+      "raw_path": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\raw_checkpoints\\control_0002.npz",
+      "raw_sha256": "01d03d733361aeee3cecda96d53d0497f6d0c5217710490004d16a06ee634619",
+      "trajectory_file": "C:\\Users\\민재현\\Documents\\Codex\\2026-08-02\\new-chat-2\\outputs\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\R27B_R3_CONFIRMATORY_1000\\smoke_a\\GW150914_095045\\control_0002.csv",
+      "trajectory_sha256": "aa7a087b5cb83d7256c67d8c28c079ed83049f5e60382959b9d8853a8098191d",
+      "family": "NONE",
+      "path_nodes": 0,
+      "candidate_count": 0,
+      "path_search_executed": true,
+      "family_classification_control_derived": true,
+      "allowed_families": [
+        "quasi-stationary"
+      ],
+      "r2_gps_duplicate": false,
+      "r2_raw_hash_duplicate": false
+    }
+  ],
+  "source": {
+    "H1": {
+      "path": "C:\\Users\\민재현\\Desktop\\prism\\RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726\\assets\\GW150914_095045\\GW150914_095045_H1_GWOSC_4096HZ_2048S_LONG.hdf5",
+      "sha256": "297d7697d4f0269bba1c0e74415cf1bf419a1d3710acdfb355f6c5dab507c9c3",
+      "fs": 4096.0,
+      "n_samples": 8388608,
+      "duration_s": 2048.0,
+      "gps_start": 1126258438.0,
+      "gps_end": 1126260486.0,
+      "finite_sampled": true
+    },
+    "L1": {
+      "path": "C:\\Users\\민재현\\Desktop\\prism\\RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726\\assets\\GW150914_095045\\GW150914_095045_L1_GWOSC_4096HZ_2048S_LONG.hdf5",
+      "sha256": "36b09bb14a7c15ea971a370bcebe674940c33e02bf6be877c1cea963c0412ba5",
+      "fs": 4096.0,
+      "n_samples": 8388608,
+      "duration_s": 2048.0,
+      "gps_start": 1126258438.0,
+      "gps_end": 1126260486.0,
+      "finite_sampled": true
+    }
+  },
+  "allowed_families": [
+    "quasi-stationary"
+  ]
+}

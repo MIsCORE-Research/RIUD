@@ -1,0 +1,17 @@
+CONSTRAINT_ID,CONSTRAINT,FROZEN_SIGNATURE,AUTHORITY
+C1,N0 -> A1 -> G <-> AR,frozen R6/R8 topology,R7F3 source master
+C2,forbidden transitions absent,frozen state contract,R40 generator
+C3,age dependence,AGE2/AGE3PLUS terms,R40 generator
+C4,run/history dependence,RUN2/RUN3/RUN4PLUS terms,R40 generator
+C5,semi-Markov behavior,memory-augmented hazard,R3/R40/R7F3
+C6,intrinsic progression / MT ordering,frozen map,Paper IV/V frozen outputs
+C7,transition-local GAP,frozen GAP,SXS gap audit
+C8,physical S relation,frozen gamma*S,R40 generator
+C9,positive gamma direction,gamma=0.3162354634393393,R40 generator
+C10,event rate variation,96 event-held-out rows,R7F3
+C11,pure-GR SXS structural survival,PATH=10/10; early topology=10/10; G-AR=6/6 scorable,SXS extended topology
+C12,raw-strain survival,RAW17 support 15/17,Paper V raw audit
+C13,waveform instantaneous model weak,GR0 +0.224335439986871 standalone reference,R6P9/R7F2
+C14,causal history unsupported,GRH -2.58632683864383 standalone,R7F2
+C15,fixed kernel unsupported,GRM -4.25942481822468 standalone,R7F2
+C16,RIUD remains conditional,+32.4043310984644 after GRH; +31.3364355652154 after GRM,R7F3

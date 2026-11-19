@@ -1,0 +1,61 @@
+{
+  "stage": "R1_INTERNAL_INDEPENDENT_REPLICATION",
+  "events": [
+    "GW150914_095045",
+    "GW200129_065458",
+    "GW200224_222234",
+    "GW230824_033047",
+    "GW230831_015414",
+    "GW230904_051013",
+    "GW231206_233901",
+    "GW231221_135041",
+    "GW240629_145256",
+    "GW240919_061559",
+    "GW240920_124024",
+    "GW241006_015333",
+    "GW241231_054133"
+  ],
+  "events_count": 13,
+  "controls_per_event": 1000,
+  "total_controls": 13000,
+  "R27_runner_path": "E:\\RIUD_INDEPENDENT_REPLICATION_FINAL_20260805\\vendor\\RIUD_R27_MORPHOLOGY_UNIVERSAL_DYNAMICS_LAW_SEARCH_R0_20260802\\work\\r27_r3_confirmatory_runner.py",
+  "R27_runner_sha256": "e3376790f0a5a54235a7c3adb17b50b3dc28d1259eccc6e89bc049c0846b5c6d",
+  "R27_helper_path": "E:\\RIUD_INDEPENDENT_REPLICATION_FINAL_20260805\\work\\r27_dynamic_null_rebuild.py",
+  "R27_helper_sha256": "ea8cfcba331fb9b5d5d66af097a763936fd060f8c72410979b6120eb716bda3d",
+  "expansion_lock_path": "E:\\RIUD_INDEPENDENT_REPLICATION_FINAL_20260805\\02_FRESH_CONTROL_SOURCE_EXPANSION_R1\\FRESH_CONTROL_SOURCE_EXPANSION_R2_LOCK.json",
+  "expansion_lock_sha256": "76f88c45d31b38efbb61b7a59c4c43d2d21f3a1a136680446aeb8887e241d430",
+  "selection_rule": "canonical 0.25s grid excluding R2 and R3; first 1000 before outcomes; deficient events use frozen selected 12 expanded checkpoints",
+  "smoke_rule": "three reserved controls excluded from the scientific 1000",
+  "path_extractor": "frozen R26C30R6 free-position search",
+  "family_classifier": "frozen R27 classifier",
+  "hypotheses": {
+    "H1": {
+      "family": "multistep",
+      "normalization": "raw",
+      "model": "M5_coupled_frequency_width_ODE"
+    },
+    "H2": {
+      "family": "oscillatory",
+      "normalization": "raw",
+      "model": "M5_coupled_frequency_width_ODE"
+    },
+    "H3": {
+      "family": "quasi-stationary",
+      "normalization": "raw",
+      "model": "M3_power_law_first_order_ODE"
+    }
+  },
+  "A2_ANCHOR_USED": false,
+  "H4_STATUS": "EXCLUDED",
+  "prohibitions": [
+    "path_reselection_outside_frozen_search",
+    "observed_path_copy",
+    "nearest_matching",
+    "tolerance_snapping",
+    "interpolation",
+    "score_only_reconstruction",
+    "family_relearning",
+    "result_based_selection"
+  ],
+  "final_verdict": null
+}

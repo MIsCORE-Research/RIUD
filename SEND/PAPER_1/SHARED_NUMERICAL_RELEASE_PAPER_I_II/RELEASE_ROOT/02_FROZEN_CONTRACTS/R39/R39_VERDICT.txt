@@ -1,0 +1,10 @@
+{
+  "PRIMARY_CASE": "L1_GLOBAL_PHYSICAL_CLOCK",
+  "PHYSICAL_DYNAMICAL_LAW_CANDIDATE": true,
+  "SCIENTIFIC_VERDICT": "PHYSICAL_DYNAMICAL_LAW_CANDIDATE_SUPPORTED",
+  "SELECTION": "minimum BIC; compact among delta-BIC<=2, minimum physical parameter count, tie lower model number",
+  "REPORT_MODEL": "P1",
+  "REPORT_EQUATION": "eta_e,j(u,age,run) = eta_R9_M3,j(u,age,run) + 0.316235463439 S_e; S_e = 0.22030031492055946*z(R_e) + 0.3457660274266933*z(CHI_A_NORMALIZED_e).",
+  "NULL_RUN": false,
+  "HOLDOUT40_OPENED": false
+}

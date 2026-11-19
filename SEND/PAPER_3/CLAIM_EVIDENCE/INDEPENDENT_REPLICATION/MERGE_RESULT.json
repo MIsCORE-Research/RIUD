@@ -1,0 +1,8 @@
+{
+  "events": 13,
+  "controls_per_event": 1000,
+  "total_controls": 13000,
+  "draws": 1000,
+  "technical_invalid": 0,
+  "final_verdict": null
+}

@@ -1,0 +1,1 @@
+R7F3 is the single conditional-closure branch after R7F2 exact GR0 identity recovery. It tests whether frozen RIUD memory remains after fixed GR source-waveform history/kernel augmentation.

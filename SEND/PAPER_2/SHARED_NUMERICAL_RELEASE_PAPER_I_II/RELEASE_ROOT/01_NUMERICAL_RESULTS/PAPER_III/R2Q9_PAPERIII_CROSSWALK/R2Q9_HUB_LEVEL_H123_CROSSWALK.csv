@@ -1,0 +1,4 @@
+component_id,component_class,hub_trace,hub_support_events,hub_paperiii_panel_overlap,hub_H1_events,hub_H2_events,hub_H3_events,hub_NOT_PRIMARY_events,hub_incident_r2q8_edges,hub_incident_loeo_stable_edges,hub_incident_transport_maxT15_edges,paperiii_label_used_to_define_hub
+R2Q8COMP_01,HUB_BRANCH_COMPLEX_CANDIDATE,fdot_s_median__POS>wdot_s_median__POS>fdot_s_mad__NEG>f_cos4__POS>w_end_ms__POS,10,0,0,0,0,0,8,8,0,False
+R2Q8COMP_02,HUB_BRANCH_COMPLEX_CANDIDATE,fdot_s_median__POS>wdot_s_median__POS>w_start_ms__NEG>delta_w_ms__POS>f_shape_tv__NEG,9,0,0,0,0,0,2,2,0,False
+R2Q8COMP_03,DYAD_AFFINITY_COMPONENT,fdot_s_median__POS>wdot_s_median__POS>w_curvature_energy__NEG>f_directness__NEG>f_turns__POS>wdot_s_mad__POS>w_turns__POS,3,0,0,0,0,0,1,1,1,False

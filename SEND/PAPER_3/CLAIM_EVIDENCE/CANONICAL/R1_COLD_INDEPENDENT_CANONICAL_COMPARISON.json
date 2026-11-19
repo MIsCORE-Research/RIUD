@@ -1,0 +1,72 @@
+{
+  "comparison_status": "PASS_METADATA_AND_PROVENANCE_ONLY",
+  "comparison_scope": "canonical cold-vs-independent completion and design audit",
+  "scientific_recomputation": false,
+  "p_value_pooling": false,
+  "direct_p_value_comparison": false,
+  "C33_RUN_TOUCHED": false,
+  "C36_RUN_TOUCHED": false,
+  "cold": {
+    "R_STATUS": "PASS",
+    "total_scorer_jobs": 62400,
+    "jobs_pass": 62400,
+    "shards_pass": 104,
+    "failed_jobs": 0,
+    "event_candidate_rows": 312,
+    "global_p_curve_rows": 24,
+    "loo_curve_rows": 312,
+    "primary_median_rows": 6,
+    "baseline_global_p": 0.00000999990000099999,
+    "statistic_family": "Paper III injection-basis candidate-population fingerprint",
+    "cross_stage_result_reuse": false,
+    "canonical_engine_sha_pass": true
+  },
+  "independent": {
+    "R_STATUS": "PASS",
+    "independent_replication_status": "PASS",
+    "events": 13,
+    "controls_per_event": 1000,
+    "total_controls": 13000,
+    "valid_draws": 1000,
+    "technical_invalid": 0,
+    "final_verdict": "VALIDATED_PARTIALLY_SHARED_DYNAMICS",
+    "statistic_family": "R1 H1-H3 locked family-dynamics max-T validation",
+    "hypotheses": {
+      "H1": {
+        "family": "multistep",
+        "model": "M5_coupled_frequency_width_ODE",
+        "family_present_draws": 583,
+        "family_absent_draws": 417,
+        "raw_p": 0.006993006993006993,
+        "max_T_corrected_p": 0.00999000999000999
+      },
+      "H2": {
+        "family": "oscillatory",
+        "model": "M5_coupled_frequency_width_ODE",
+        "family_present_draws": 270,
+        "family_absent_draws": 730,
+        "raw_p": 0.002997002997002997,
+        "max_T_corrected_p": 0.002997002997002997
+      },
+      "H3": {
+        "family": "quasi-stationary",
+        "model": "M3_power_law_first_order_ODE",
+        "family_present_draws": 967,
+        "family_absent_draws": 33,
+        "raw_p": 0.00999000999000999,
+        "max_T_corrected_p": 0.04595404595404595
+      }
+    }
+  },
+  "artifact_integrity": {
+    "cold_status_pass": true,
+    "independent_status_pass": true,
+    "independent_merge": "13 events, 13000 controls, 1000 draws, technical_invalid=0",
+    "event_summaries_pass": "13/13",
+    "verify_status_pass": true,
+    "independent_design_lock_sha256": "19d0e3a6249dda28b6a2960a3c77db22afcb3a0894a35ca8d719f1b3a69b5e17",
+    "master_design_lock_sha256": "ebf962e6b584a0fe9e30b822e819b5eaf9d49ef75eb9b49bc2256286ea7f7b3e"
+  },
+  "interpretation_boundary": "The cold and independent outputs are complete and provenance-valid, but they answer different prelocked questions. No common p-value, null distribution, or final verdict is formed by pooling them.",
+  "next": "REVIEW_COLD_AND_INDEPENDENT_RESULTS_SEPARATELY_WITH_CANONICAL_PROVENANCE"
+}

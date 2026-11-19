@@ -1,0 +1,65 @@
+PRISM 2.2-alpha FREQUENCY RIDGE LOCKED VALIDATION SUMMARY - 2026-07-02
+
+Status:
+- Unofficial exploratory diagnostic.
+- Scans ring-template frequency f0 while keeping time anchor and scale fixed.
+- On-source global frequency peak is compared against time-slide global frequency peaks.
+- This controls the look-elsewhere effect across the scanned frequency grid at scout level.
+
+Event: GW190521_074359
+GR source: prism_modelbank_results_20260702_090241/GW190521_074359_post_64_512_gr_core_lorentz_fc2p0_w0p2_p1p0_result.json
+PSD: pre_512_64 [1242459345, 1242459793)
+Residual band: [20.0, 500.0] Hz
+Frequency grid: 20.0 to 500.0 Hz, step=2.0, n=241
+
+Results:
+
+ring_ref_center_m0p050_w0p030:
+- center = -0.050000 s
+- scale = 0.030000 s
+- on_peak_coherent = +20.857119
+- on_peak_f0 = 134.000000 Hz
+- on_peak_lag = -0.001000 s
+- on_peak_mode = same
+- on_peak_zH1 = -13.460471
+- on_peak_zL1 = -16.035950
+- ridge90 = [122.0, 140.0], n=10
+- ridge80 = [108.0, 144.0], n=19
+- bg_n = 396
+- bg_median = +12.087633
+- bg_p95 = +13.724493
+- bg_p99 = +14.539660
+- bg_max = +15.272890
+- globalZ = +10.022491
+- exceed = 0/396
+- empirical_p = 0.002519
+- verdict = FREQUENCY_RIDGE_SUPPORT_STRONG
+
+tf_local_center_m0p060_w0p015:
+- center = -0.060000 s
+- scale = 0.015000 s
+- on_peak_coherent = +19.783557
+- on_peak_f0 = 82.000000 Hz
+- on_peak_lag = -0.005000 s
+- on_peak_mode = opposite
+- on_peak_zH1 = +9.596650
+- on_peak_zL1 = -18.381524
+- ridge90 = [72.0, 92.0], n=11
+- ridge80 = [70.0, 144.0], n=26
+- bg_n = 396
+- bg_median = +8.812706
+- bg_p95 = +10.228718
+- bg_p99 = +10.950009
+- bg_max = +15.264052
+- globalZ = +12.481693
+- exceed = 0/396
+- empirical_p = 0.002519
+- verdict = FREQUENCY_RIDGE_SUPPORT_STRONG
+
+Conservative read:
+- Frequency-ridge support is strong in both anchors.
+
+Caution:
+- This is PRISM 2.2-alpha only.
+- It should not replace the PRISM 2.1 evidence stack.
+- Positive results require a locked rerun with more slides and a fixed GR source.

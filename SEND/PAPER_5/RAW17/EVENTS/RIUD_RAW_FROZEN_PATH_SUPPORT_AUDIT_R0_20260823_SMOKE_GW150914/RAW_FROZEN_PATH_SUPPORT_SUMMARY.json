@@ -1,0 +1,116 @@
+{
+  "R_STATUS": "SMOKE_PASS",
+  "N_EVENTS": 1,
+  "EVENT": "GW150914_095045",
+  "N_SCORABLE": 1,
+  "RAW_ONPATH_GT_OFFPATH": 1,
+  "DIRECTION_CONSISTENT": 0,
+  "RAW_PRE_SUBTRACTION_SUPPORT": "SMOKE_SUPPORT_ONLY",
+  "SUBTRACTION_GENERATED_STRUCTURE": "NOT_TESTED",
+  "NO_NEW_PATH_SEARCH": true,
+  "NO_NEW_PATH_RULE": true,
+  "NO_NEW_NODE_RULE": true,
+  "NO_NEW_THRESHOLD": true,
+  "NO_NEW_FIT": true,
+  "NO_NEW_ALIGNMENT": true,
+  "NO_NEW_AFFINE": true,
+  "EVENT_SPECIFIC_TUNING": false,
+  "RESULT_DEPENDENT_SELECTION": false,
+  "RESULT_DEPENDENT_TOLERANCE": false,
+  "NEW_NULL_FAMILY": false,
+  "HOLDOUT30_ACCESSED": false,
+  "RAW_SOURCE_INPUT_OPENED": true,
+  "RAW_H1": {
+    "path": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_PUBLIC_MASTER_PAPERS_I_IV_R2_20260818/03_PAPER_III/FULL_INDEPENDENT_REPLICATION/01_INPUT_ASSETS/PRISM_SOURCE/RIUD_PAPERII_CLEAN_REPRO_20260801/03_RAW_STRAIN/raw_strain_4s_4096hz/GW150914_095045/GW150914_095045_H1_GWOSC_UNIFORM_4096HZ_4S.hdf5",
+    "sha256": "f877da71e730b9ec5ddf8898b2930f1aadeb08a97fc699fcf66381aa50492647",
+    "gps_start": 1126259460.426434,
+    "sample_rate": 4096.0,
+    "n_samples": 16384,
+    "attrs": {
+      "detector": "H1",
+      "event": "GW150914_095045",
+      "gps_start": "1126259460.426434",
+      "sample_rate": "4096.0"
+    },
+    "root_attrs": {
+      "source": "GWOSC_UNIFORM_REFETCH_GWPY",
+      "stage": "RIUD_R26C33C2_UNIFORM_GWOSC_REFETCH_AND_B1_REPLICATION_R0_20260729"
+    }
+  },
+  "RAW_L1": {
+    "path": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_PUBLIC_MASTER_PAPERS_I_IV_R2_20260818/03_PAPER_III/FULL_INDEPENDENT_REPLICATION/01_INPUT_ASSETS/PRISM_SOURCE/RIUD_PAPERII_CLEAN_REPRO_20260801/03_RAW_STRAIN/raw_strain_4s_4096hz/GW150914_095045/GW150914_095045_L1_GWOSC_UNIFORM_4096HZ_4S.hdf5",
+    "sha256": "d98d6e01179ceae0f2ac23d6f9755ea9d29a21cb69435548f5a5b24cf7371ff1",
+    "gps_start": 1126259460.426434,
+    "sample_rate": 4096.0,
+    "n_samples": 16384,
+    "attrs": {
+      "detector": "L1",
+      "event": "GW150914_095045",
+      "gps_start": "1126259460.426434",
+      "sample_rate": "4096.0"
+    },
+    "root_attrs": {
+      "source": "GWOSC_UNIFORM_REFETCH_GWPY",
+      "stage": "RIUD_R26C33C2_UNIFORM_GWOSC_REFETCH_AND_B1_REPLICATION_R0_20260729"
+    }
+  },
+  "PATH_SOURCE": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_DEV99_PATH_ONLY_CPU_ADAPTIVE_R10G_20260811/03_OUTPUT/RUNTIME_EXPORT/GW150914_095045/output/GW150914_095045/EXPANDED_EXACT_ORIGINAL_PATH.csv",
+  "PATH_SHA256": "cb0e1b3841798ccdf79f5fcc8f028196b9913b2ee079dc232876ca294d01d8dc",
+  "CONTROL_SOURCE": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_DEV99_PATH_ONLY_CPU_ADAPTIVE_R10G_20260811_WORK/runtime/GW150914_095045/engine/checkpoint/GW150914_095045",
+  "CONTROL_N": 200,
+  "FROZEN_LOCK_SHA256": "cdeb9973730f17ed6e8678a040042f5293af07869333227f31559c64c635513f",
+  "FROZEN_RULE_SHA256": "899ecf4e4ce621c411dd8f03409a9bda3b9647d1e940f47a492b2adfb4ebc768",
+  "FROZEN_STATE_PREPARATION_SHA256": "75fdbddd2b05f7adbeb7d4a77dc2d35622e17d88b5cb621d46027a27f2d01442",
+  "COORDINATE_SOURCE": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_DEV99_PATH_ONLY_CPU_ADAPTIVE_R10G_20260811_WORK/runtime/GW150914_095045/engine/work/GW150914_095045/EXPANDED_COORDINATES.csv",
+  "RAW_ONPATH_MEDIAN_Z": 2.620143796659564,
+  "RAW_OFFPATH_MEDIAN_Z": 2.308147210547487,
+  "RAW_ONPATH_MINUS_OFFPATH": 0.31199658611207726,
+  "RAW_NULL200_MEDIAN": -0.21114566609572386,
+  "RAW_NULL200_EXCEED_COUNT": 0,
+  "RAW_NULL200_FIXED_CORRIDOR_P": 0.004975124378109453,
+  "RAW_PATH_DIRECTION_SPEARMAN": -0.7142857142857144,
+  "PATH_NODE_SEQUENCE": [
+    {
+      "path_index": 0,
+      "center_from_merger_s": -0.03,
+      "frequency_hz": 100.0,
+      "width_s": 0.06
+    },
+    {
+      "path_index": 1,
+      "center_from_merger_s": -0.02,
+      "frequency_hz": 100.0,
+      "width_s": 0.06
+    },
+    {
+      "path_index": 2,
+      "center_from_merger_s": -0.01,
+      "frequency_hz": 100.0,
+      "width_s": 0.05
+    },
+    {
+      "path_index": 3,
+      "center_from_merger_s": 0.0,
+      "frequency_hz": 100.0,
+      "width_s": 0.05
+    },
+    {
+      "path_index": 4,
+      "center_from_merger_s": 0.01,
+      "frequency_hz": 100.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 5,
+      "center_from_merger_s": 0.02,
+      "frequency_hz": 100.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 6,
+      "center_from_merger_s": 0.03,
+      "frequency_hz": 100.0,
+      "width_s": 0.03
+    }
+  ]
+}

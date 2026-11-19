@@ -1,0 +1,16 @@
+{
+  "selection_mode": "SECOND_FIXED_DRAW_FROM_PRIOR_RANDOM_SELECTION",
+  "candidate_source": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_DEV99_PATH_ONLY_CPU_ADAPTIVE_R10G_20260811/03_OUTPUT/RESULTS/DEV99_EVENT_RESULTS.csv",
+  "candidate_pool_definition": "PATH_FOUND=98 excluding GW150914_095045 and GW230914_111401",
+  "candidate_pool_n": 96,
+  "excluded_events": [
+    "GW150914_095045",
+    "GW230914_111401"
+  ],
+  "previous_selection_reason": "GW230914_111401:RAW_H1_L1_NOT_FOUND",
+  "selected_event": "GW231206_233901",
+  "selected_before_raw_audit": true,
+  "redraw_allowed": false,
+  "selection_seed_serialized": false,
+  "selection_note": "Event fixed from the already reported second draw; no further redraw permitted."
+}

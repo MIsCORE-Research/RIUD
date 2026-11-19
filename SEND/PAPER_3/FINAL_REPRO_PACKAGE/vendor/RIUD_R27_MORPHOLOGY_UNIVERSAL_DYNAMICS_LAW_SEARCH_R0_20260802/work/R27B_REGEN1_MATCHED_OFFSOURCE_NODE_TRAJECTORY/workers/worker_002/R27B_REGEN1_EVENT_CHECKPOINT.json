@@ -1,0 +1,15 @@
+{
+  "event": "GW200224_222234",
+  "status": "PASS",
+  "control_count": 200,
+  "node_count": 11,
+  "trajectory_rows": 2200,
+  "event_lock": "C:\\Users\\민재현\\Desktop\\prism\\RIUD_PAPERII_CLEAN_REPRO_20260801\\RIUD_R26C42F1_OFFSOURCE_CONTROL_ASSET_EXACT_RESOLUTION_R6_13EVENT_PARALLEL_HARDBIND_20260801\\output\\events\\GW200224_222234\\EVENT_LOCK.json",
+  "control_dir": "C:\\Users\\민재현\\Desktop\\prism\\PRISM_5P0_POST_R17_13EVENT_HARMONIZED_60_300_RAW_NODE_STAGEB_R0_20260722\\checkpoint\\GW200224_222234",
+  "state_path": "C:\\Users\\민재현\\Desktop\\prism\\RIUD_R26C1_ROLLBACK_EXACT_ORIGINAL_R7_13EVENT_REPLAY_20260726\\work\\ORIGINAL_FIVE_R7\\output\\GW200224_222234\\EXPANDED_OBSERVED_STATE.npy",
+  "TIME_COORD_SOURCE": "R26C30R6_observed_path_nodes",
+  "TIME_COORD_COLUMN": "tau_s",
+  "A2_ANCHOR_USED": false,
+  "path_reselection": false,
+  "score_only_summary_used": false
+}

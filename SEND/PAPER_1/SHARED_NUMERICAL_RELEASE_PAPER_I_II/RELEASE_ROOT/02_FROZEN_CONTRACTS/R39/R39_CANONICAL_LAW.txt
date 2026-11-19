@@ -1,0 +1,1 @@
+eta_e,j(u,age,run) = eta_R9_M3,j(u,age,run) + 0.316235463439 S_e; S_e = 0.22030031492055946*z(R_e) + 0.3457660274266933*z(CHI_A_NORMALIZED_e).

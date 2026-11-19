@@ -1,0 +1,12 @@
+The following assets were intentionally excluded from authority promotion in this package:
+
+- `RIUD_R27G4A_RECOVER_ORIGINAL_A2_SCORED_EVENT_DETECTOR_SCOPE_20260801`
+- `RIUD_R27G4B_SELECTED29_A2_SCOPE_AND_DOWNSTREAM_PROVENANCE_20260801`
+- `RIUD_R27G4C_OPEN_DOWNSTREAM_CONSUMERS_AND_IDENTIFY_FINAL_A2_SCOPE_20260801`
+- `RIUD_R27G4D_LOCK_FINAL_A2_SCOPE_FROM_TOP_CONSUMERS_20260801`
+- `PRISM_EXP26C_R2_FAST_SOURCE_RESOLVER_20260711`
+
+Reason:
+
+- User instruction explicitly forbids promoting `R27G4A-D` review outputs and `EXP26C` candidate audit to authority.
+- These assets may remain useful for review context, but they are not included as final authority files in this package.

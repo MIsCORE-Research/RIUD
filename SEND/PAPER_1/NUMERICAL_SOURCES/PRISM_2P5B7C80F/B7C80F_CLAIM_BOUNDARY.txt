@@ -1,0 +1,21 @@
+B7C80F CLAIM BOUNDARY
+
+Allowed:
+- Legacy8 XPHM ↔ SEOBNRv4PHM paired status locked.
+- 8/8 legacy events are usable at event level.
+- 19/20 detector rows are scored.
+- 1/20 detector row is not scorable due to bad-std and was not zero-filled.
+- 7 rows required labeled fallback generation configs duration/fs/fmin.
+- No physical PE median clipping was used.
+- No bad-std zero scoring was used.
+- SEOBNRv4PHM subtraction did not meaningfully reduce PRISM scores in scored new/fallback rows.
+
+Not allowed:
+- Full detector-row complete 20/20 scoring.
+- Claiming the V1 bad-std row as zero or pass.
+- Hiding fallback rows as primary rows.
+- Claiming waveform-family proof across all possible families.
+- Claiming QG/Beyond-GR discovery or GR violation proof.
+
+Recommended one-line wording:
+Legacy8 SEOBNRv4PHM paired status is locked at 8/8 usable events and 19/20 scored detector rows, with one explicit V1 bad-std non-scorable row and no PE-median clipping or zero-score patching.

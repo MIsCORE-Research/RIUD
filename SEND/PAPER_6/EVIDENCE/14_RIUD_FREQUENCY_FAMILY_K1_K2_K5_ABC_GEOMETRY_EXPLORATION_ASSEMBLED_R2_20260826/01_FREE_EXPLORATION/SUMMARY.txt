@@ -1,0 +1,27 @@
+R_STATUS=PASS_FREE_EXPLORATORY_CROSS_AUDIT
+MODE=FREE_EXPLORATION_NO_INTEGRATED_REGRESSION
+N_EVENT_ROWS=98
+N_FREQUENCY_ROWS=98
+N_ABC_ROWS=96
+N_K5_GLOBAL=96
+N_K5_A_ONLY=73
+N_K1_GR16=16
+N_K2_OBS16=16
+RAW_PHYSICAL_COVERAGE=R/CHI_A on 96-event K5 source; M_DET/MC_DET/Q/ETA/CHI_EFF/CHI_P/SPIN1Z/SPIN2Z on exact 16-event K1/K2 source
+SCORE_AVERAGING=FALSE
+NEW_MAP=FALSE
+NEW_PATH=FALSE
+NEW_K_LAW=FALSE
+CAUSAL_CLAIM=FALSE
+HOLDOUT30_ACCESSED=FALSE
+NOTE=Contrasts and plots are discovery-oriented descriptions; no p-value or regression is promoted as a law
+PLOTS=SVG standard-library plots in plots/; no matplotlib dependency
+RANK_BINS=Exploratory within-axis rank terciles only; not scientific thresholds
+COUNTS_FREQ_MAG_FAMILY={'FREQ_MAG_2': 64, 'FREQ_MAG_1': 34}
+COUNTS_FREQ_SHAPE_FAMILY={'FREQ_SHAPE_1': 63, 'FREQ_SHAPE_2': 35}
+COUNTS_ABC_CLASS={'A': 74, 'C': 10, 'OTHER': 7, 'B': 5, nan: 2}
+K1_X_K2_COMMON16_SPEARMAN_RHO=0.582352941176|p=0.017932734131|N=16
+K1_X_K5_COMMON16_SPEARMAN_RHO=0.452941176471|p=0.0780987414167|N=16
+K2_X_K5_COMMON16_SPEARMAN_RHO=0.414705882353|p=0.110229403918|N=16
+DERIVED_AXIS_WARNING=K1 is frozen linear CHI_P branch score; K5 includes frozen R and CHI_A; these constructional correlations are not independent discoveries
+COMMON16_ABC_SCOPE=K1/K2 common branch contains B=5,C=10,OTHER=1 and no A events

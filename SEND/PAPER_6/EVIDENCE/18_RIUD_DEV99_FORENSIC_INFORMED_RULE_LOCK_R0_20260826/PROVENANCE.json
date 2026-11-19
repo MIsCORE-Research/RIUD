@@ -1,0 +1,23 @@
+{
+  "status": "PASS_DEV99_RULES_RECOVERED_AND_RECHECKED",
+  "abc_source": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_NODE_PATH_MORPHOLOGY_CENSUS_H99_R2_20260824\\09_ABC_X_H99.csv",
+  "abc_source_sha256": "28815e944f1d9fdfdf4071b1fdd986b4949b328fee42eba2b149ff0f306d250b",
+  "abc_rows": 96,
+  "abc_recheck_mismatch_n": 0,
+  "abc_counts": {
+    "A": 74,
+    "C": 10,
+    "OTHER": 7,
+    "B": 5
+  },
+  "abc_rule": "A: GAP_TIME < T0 < MAX_FLOW; B: GAP_TIME < MAX_FLOW < T0; C: MAX_FLOW < GAP_TIME < T0; else OTHER",
+  "frequency_freeze_source": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_FREQUENCY_MAG_SHAPE_CENSUS_R0_20260824\\10_FREQUENCY_MAG_SHAPE_FREEZE.md",
+  "frequency_freeze_sha256": "8758b003c65e586e77a0be22266f60fe9589f72bd9e0d18e8c94bf2fdec2e820",
+  "frequency_assignment_source": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_FREQUENCY_MAG_SHAPE_CENSUS_R0_20260824\\07_FREQ_MAG_SHAPE_ASSIGNMENTS.csv",
+  "frequency_assignment_sha256": "e3c5cbc559a6a0cc0320d1d39b122454081c92bc5882fc75cee2edff655c61ae",
+  "holdout5_used_for_lock": false,
+  "holdout30_accessed": false,
+  "new_science_run": false,
+  "new_map": false,
+  "new_path": false
+}

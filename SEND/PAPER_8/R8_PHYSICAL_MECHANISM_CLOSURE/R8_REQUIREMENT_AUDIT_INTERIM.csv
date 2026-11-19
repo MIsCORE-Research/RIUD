@@ -1,0 +1,27 @@
+REQUIREMENT,STATUS,EVIDENCE,NOTE
+Frozen SXS10 cohort,VERIFIED,R8_SXS_MECHANISM_EVENT_ACCOUNTING.csv,10-event cohort represented
+SXS10 PATH_FOUND 10/10,VERIFIED,SXS_NATIVE_EVENT_RESULTS.csv,source-native replay output
+SXS10 early topology N0-A1-G,VERIFIED,SXS_EXTENDED_PATH_ONLY_TOPOLOGY_EVENT_AUDIT.csv,10/10
+SXS10 G-AR scorable,VERIFIED,SXS_EXTENDED_PATH_ONLY_TOPOLOGY_EVENT_AUDIT.csv,6/6 scorable in frozen branch
+SXS10 illegal transitions,VERIFIED,SXS_EXTENDED_PATH_ONLY_TOPOLOGY_EVENT_AUDIT.csv,zero
+Source-native row master,VERIFIED,R8_SXS_MECHANISM_ROW_MASTER.csv,600 rows
+Prespecified mechanism blocks,VERIFIED,R8_SXS_MECHANISM_MODEL_SUMMARY.csv,all required model labels present
+LOSO scoring,VERIFIED,R8_SXS_MECHANISM_LOOSV.csv,10 outer folds
+Primary likelihood increments,VERIFIED,R8_MECHANISM_INTERIM_SYNTHESIS.md,all required subtraction values recorded
+Temporal precedence,VERIFIED,R8_SXS_MECHANISM_TEMPORAL_AUDIT.csv,32 transitions and fixed variables
+Changepoint audit,VERIFIED,R8_SXS_CHANGEPOINT_AUDIT.csv,deterministic finite-difference audit
+SXS1144 derivative audit,VERIFIED,R8_SXS1144_DERIVATIVE_AUDIT.csv,ambiguous boundary effect retained
+Frozen-S connection,VERIFIED,R8_SXS_S_CONNECTION_AUDIT.csv,secondary N=10 diagnostic; weak/mixed
+Secondary cohort selection,VERIFIED,R8_SECONDARY_COHORT_SELECTION.csv,metadata/source availability only
+Secondary source acquisition,VERIFIED,R8_SECONDARY_NR_SOURCE_ARCHIVE,Sources 80/80 SHA pass
+Secondary source-native extraction,VERIFIED,R8_SECONDARY_DERIVED_SOURCE_NATIVE/R8_NR_SOURCE_NATIVE_SUMMARY.csv,16 events
+Secondary path replay,VERIFIED,R8_SECONDARY_REPLAY/SXS_NATIVE_EVENT_RESULTS.csv,15/16 path found
+Secondary topology result,VERIFIED,R8_SECONDARY_REPLAY/SXS_EXTENDED_PATH_ONLY_TOPOLOGY_EVENT_AUDIT.csv,N0-A1-G 16/16; G-AR 0/16
+Secondary mechanism blocks,VERIFIED,R8_SECONDARY_REPLAY/R8_SXS_MECHANISM_MODEL_SUMMARY.csv,same prespecified block labels
+Secondary temporal audit,VERIFIED,R8_SECONDARY_REPLAY/R8_SECONDARY_TEMPORAL_SUMMARY.csv,30 transition-variable rows summarized
+Secondary changepoint audit,VERIFIED,R8_SECONDARY_REPLAY/R8_SECONDARY_CHANGEPOINT_AUDIT.csv,320 event-variable rows
+Secondary S diagnostic,VERIFIED,R8_SECONDARY_REPLAY/R8_SECONDARY_S_CONNECTION_AUDIT.csv,mixed signs; no closure
+Required scientific endpoint,VERIFIED,R8_MECHANISM_INTERIM_SYNTHESIS.md,NO_TESTED_MECHANISM
+Final R8 authoritative freeze,PENDING,Explicit user instruction,not performed
+R8 final ledger modification,PENDING,Explicit user instruction,not performed
+Holdout30 access,NOT_ACCESSED,Command/audit scope,remains sealed

@@ -1,0 +1,170 @@
+{
+  "R_STATUS": "SMOKE_PASS",
+  "N_EVENTS": 1,
+  "EVENT": "GW240629_145256",
+  "N_SCORABLE": 1,
+  "RAW_ONPATH_GT_OFFPATH": 1,
+  "DIRECTION_CONSISTENT": 0,
+  "RAW_PRE_SUBTRACTION_SUPPORT": "SMOKE_SUPPORT_ONLY",
+  "SUBTRACTION_GENERATED_STRUCTURE": "NOT_TESTED",
+  "NO_NEW_PATH_SEARCH": true,
+  "NO_NEW_PATH_RULE": true,
+  "NO_NEW_NODE_RULE": true,
+  "NO_NEW_THRESHOLD": true,
+  "NO_NEW_FIT": true,
+  "NO_NEW_ALIGNMENT": true,
+  "NO_NEW_AFFINE": true,
+  "EVENT_SPECIFIC_TUNING": false,
+  "RESULT_DEPENDENT_SELECTION": false,
+  "RESULT_DEPENDENT_TOLERANCE": false,
+  "NEW_NULL_FAMILY": false,
+  "HOLDOUT30_ACCESSED": false,
+  "RAW_SOURCE_INPUT_OPENED": true,
+  "RAW_H1": {
+    "path": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_PUBLIC_MASTER_PAPERS_I_IV_R2_20260818/03_PAPER_III/FULL_INDEPENDENT_REPLICATION/01_INPUT_ASSETS/PRISM_SOURCE/RIUD_FULL_REPRO_SOURCE_BUNDLE_R1_20260801/PAPER_II/RIUD_R26C37_PAPER2_RESIDUAL_RAW_STRAIN_CALIBRATION_EVIDENCE_FREEZE_R0_20260731/evidence/raw_strain_4s_4096hz/GW240629_145256/GW240629_145256_H1_GWOSC_UNIFORM_4096HZ_4S.hdf5",
+    "sha256": "c3a5f4186e4b12f813e50e33398c20f8a6219b50af6added8f1998fb33535427",
+    "gps_start": 1403707992.854242,
+    "sample_rate": 4096.0,
+    "n_samples": 16384,
+    "attrs": {
+      "detector": "H1",
+      "event": "GW240629_145256",
+      "gps_start": "1403707992.854242",
+      "sample_rate": "4096.0"
+    },
+    "root_attrs": {
+      "source": "GWOSC_UNIFORM_REFETCH_GWPY",
+      "stage": "RIUD_R26C33C2_UNIFORM_GWOSC_REFETCH_AND_B1_REPLICATION_R0_20260729"
+    }
+  },
+  "RAW_L1": {
+    "path": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_PUBLIC_MASTER_PAPERS_I_IV_R2_20260818/03_PAPER_III/FULL_INDEPENDENT_REPLICATION/01_INPUT_ASSETS/PRISM_SOURCE/RIUD_FULL_REPRO_SOURCE_BUNDLE_R1_20260801/PAPER_II/RIUD_R26C37_PAPER2_RESIDUAL_RAW_STRAIN_CALIBRATION_EVIDENCE_FREEZE_R0_20260731/evidence/raw_strain_4s_4096hz/GW240629_145256/GW240629_145256_L1_GWOSC_UNIFORM_4096HZ_4S.hdf5",
+    "sha256": "f06b92c0ddc3fa3c1c72606653e1d12e9363b24bfec856c61dab4376e5873cd6",
+    "gps_start": 1403707992.854242,
+    "sample_rate": 4096.0,
+    "n_samples": 16384,
+    "attrs": {
+      "detector": "L1",
+      "event": "GW240629_145256",
+      "gps_start": "1403707992.854242",
+      "sample_rate": "4096.0"
+    },
+    "root_attrs": {
+      "source": "GWOSC_UNIFORM_REFETCH_GWPY",
+      "stage": "RIUD_R26C33C2_UNIFORM_GWOSC_REFETCH_AND_B1_REPLICATION_R0_20260729"
+    }
+  },
+  "PATH_SOURCE": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_DEV99_PATH_ONLY_CPU_ADAPTIVE_R10G_20260811/03_OUTPUT/RUNTIME_EXPORT/GW240629_145256/output/GW240629_145256/EXPANDED_EXACT_ORIGINAL_PATH.csv",
+  "PATH_SHA256": "b3eeeae3765439579c9e44f560be9ff4a9ef5a4dc3b4d4fb8cadead86297c32d",
+  "CONTROL_SOURCE": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_DEV99_PATH_ONLY_CPU_ADAPTIVE_R10G_20260811_WORK/runtime/GW240629_145256/engine/checkpoint/GW240629_145256",
+  "CONTROL_N": 200,
+  "FROZEN_LOCK_SHA256": "cdeb9973730f17ed6e8678a040042f5293af07869333227f31559c64c635513f",
+  "FROZEN_RULE_SHA256": "899ecf4e4ce621c411dd8f03409a9bda3b9647d1e940f47a492b2adfb4ebc768",
+  "FROZEN_STATE_PREPARATION_SHA256": "75fdbddd2b05f7adbeb7d4a77dc2d35622e17d88b5cb621d46027a27f2d01442",
+  "COORDINATE_SOURCE": "/mnt/e/RIUD_ACTIVE_20260808/RIUD_DEV99_PATH_ONLY_CPU_ADAPTIVE_R10G_20260811_WORK/runtime/GW240629_145256/engine/work/GW240629_145256/EXPANDED_COORDINATES.csv",
+  "RAW_ONPATH_MEDIAN_Z": 1.2124340620589642,
+  "RAW_OFFPATH_MEDIAN_Z": 0.677227204635638,
+  "RAW_ONPATH_MINUS_OFFPATH": 0.5352068574233262,
+  "RAW_NULL200_MEDIAN": -0.33342375441729954,
+  "RAW_NULL200_EXCEED_COUNT": 1,
+  "RAW_NULL200_FIXED_CORRIDOR_P": 0.009950248756218905,
+  "RAW_PATH_DIRECTION_SPEARMAN": -0.9323529411764706,
+  "PATH_NODE_SEQUENCE": [
+    {
+      "path_index": 0,
+      "center_from_merger_s": -0.12,
+      "frequency_hz": 60.0,
+      "width_s": 0.02
+    },
+    {
+      "path_index": 1,
+      "center_from_merger_s": -0.11,
+      "frequency_hz": 60.0,
+      "width_s": 0.02
+    },
+    {
+      "path_index": 2,
+      "center_from_merger_s": -0.1,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 3,
+      "center_from_merger_s": -0.09,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 4,
+      "center_from_merger_s": -0.08,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 5,
+      "center_from_merger_s": -0.07,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 6,
+      "center_from_merger_s": -0.06,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 7,
+      "center_from_merger_s": -0.05,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 8,
+      "center_from_merger_s": -0.04,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 9,
+      "center_from_merger_s": -0.03,
+      "frequency_hz": 60.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 10,
+      "center_from_merger_s": -0.02,
+      "frequency_hz": 60.0,
+      "width_s": 0.06
+    },
+    {
+      "path_index": 11,
+      "center_from_merger_s": -0.01,
+      "frequency_hz": 110.0,
+      "width_s": 0.06
+    },
+    {
+      "path_index": 12,
+      "center_from_merger_s": 0.0,
+      "frequency_hz": 110.0,
+      "width_s": 0.04
+    },
+    {
+      "path_index": 13,
+      "center_from_merger_s": 0.01,
+      "frequency_hz": 110.0,
+      "width_s": 0.04
+    },
+    {
+      "path_index": 14,
+      "center_from_merger_s": 0.02,
+      "frequency_hz": 140.0,
+      "width_s": 0.03
+    },
+    {
+      "path_index": 15,
+      "center_from_merger_s": 0.03,
+      "frequency_hz": 190.0,
+      "width_s": 0.01
+    }
+  ]
+}

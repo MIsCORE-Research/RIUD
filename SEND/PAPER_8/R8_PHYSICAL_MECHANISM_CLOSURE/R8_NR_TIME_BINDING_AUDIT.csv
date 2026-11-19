@@ -1,0 +1,11 @@
+EVENT,TIME_SOURCE,LANDMARK,TRANSFORMATION,STATUS
+SXS:BBH:0180,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:0513,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:0526,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:1144,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:1765,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:2092,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:2497,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:2499,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:2505,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE
+SXS:BBH:2506,metadata.json + Horizons.h5 / Strain_N2.h5,common_horizon_time,tau=t_native-common_horizon_time,PASS_SOURCE_NATIVE

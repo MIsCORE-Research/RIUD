@@ -1,0 +1,1 @@
+Paper III uses the integrated authoritative manuscript plus compact frozen H1/H2/H3 crosswalk, permutation-null, and trajectory/gate assets. The large historical replication tree is registered separately and is not copied.

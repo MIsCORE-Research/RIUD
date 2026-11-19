@@ -1,0 +1,1 @@
+This is a conditional information test, not an Einstein-equation derivation, GR falsification, full-waveform exhaustion, horizon test, or Holdout30 validation. The conclusion is restricted to the tested source-waveform instantaneous/history/kernel representations.

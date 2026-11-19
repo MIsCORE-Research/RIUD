@@ -1,0 +1,119 @@
+{
+    "simulation_name": "004/Lev3",
+    "keywords": [],
+    "alternative_names": [
+        "BFI:RerunCatalog_SHK:004",
+        "SXS:BBH:2499"
+    ],
+    "metadata_format_revision": 2,
+    "metadata_content_revision": 1,
+    "internal_minor_version": 0,
+    "internal_changelog": {},
+    "citation_dois": [
+        "10.26138/SXSCatalog3",
+        "10.1103/PhysRevD.98.104011"
+    ],
+    "initial_separation": 13.7703857422,
+    "initial_orbital_frequency": 0.017879706535,
+    "initial_adot": -3.58629547358e-05,
+    "initial_ADM_energy": 0.994945666703595,
+    "initial_ADM_linear_momentum": [
+        -8.7615688e-09,
+        -4.19329952e-08,
+        -2.631272e-10
+    ],
+    "initial_ADM_angular_momentum": [
+        -2.03211e-11,
+        -7.4977e-12,
+        0.6869204412771693
+    ],
+    "initial_dimensionless_spin1": [
+        1.87e-14,
+        7.34e-14,
+        4.175607e-10
+    ],
+    "initial_dimensionless_spin2": [
+        -7.0896e-12,
+        3.908e-13,
+        -8.444449e-10
+    ],
+    "initial_data_type": "BBH_SHK",
+    "initial_mass1": 0.8000000330924416,
+    "initial_mass2": 0.2000000058663187,
+    "object1": "bh",
+    "object2": "bh",
+    "initial_position1": [
+        2.760959527985502,
+        0.0131760064078413,
+        7.0943646387e-06
+    ],
+    "initial_position2": [
+        -11.009426214214498,
+        0.0131760064078413,
+        7.0943646387e-06
+    ],
+    "t_relaxed_algorithm": {
+        "algorithm": "HHT"
+    },
+    "relaxation_time": 296.5,
+    "reference_time": 296.5,
+    "reference_dimensionless_spin1": [
+        -4.344142329130102e-08,
+        -7.789253627228366e-09,
+        7.726520778348432e-06
+    ],
+    "reference_mass1": 0.7999976569410221,
+    "reference_dimensionless_spin2": [
+        -2.7752847070107946e-08,
+        -3.4856282019400482e-09,
+        5.029680083574253e-06
+    ],
+    "reference_mass2": 0.19999838272610249,
+    "reference_position1": [
+        1.6563550986585764,
+        -2.294255393570482,
+        4.2932772201817665e-06
+    ],
+    "reference_position2": [
+        -6.781826183803056,
+        9.155269575432325,
+        4.499745900046026e-06
+    ],
+    "reference_orbital_frequency": [
+        -2.4740520202222224e-10,
+        -5.082390630831573e-10,
+        0.01807269703355904
+    ],
+    "common_horizon_time": 4861.423300149431,
+    "number_of_orbits_from_start": 20.159799172413678,
+    "number_of_orbits_from_reference_time": 19.309493862703906,
+    "reference_eccentricity": 0.0001455,
+    "reference_mean_anomaly": 4.417127,
+    "remnant_mass": 0.9779124519512923,
+    "remnant_dimensionless_spin": [
+        -4.1934391694994774e-08,
+        -4.2895549069765234e-08,
+        0.47165495740106167
+    ],
+    "remnant_velocity": [
+        0.00044318590012295964,
+        -0.0002954330326383764,
+        -1.0174853282828962e-07
+    ],
+    "spec_revisions": [
+        "InitialCommit-30849-g3fb4bcf549",
+        "InitialCommit-30850-gef2a4db578"
+    ],
+    "spells_revision": "3fb4bcf549a0924aecd4f3400b505b934a80cb3e",
+    "date_run_earliest": "2018-08-25T17:33:00",
+    "date_run_latest": "2018-10-01T08:40:08",
+    "date_link_earliest": "2018-08-15T19:39:19-05:00",
+    "date_postprocessing": "2025-01-28T07:11:35.165185-08:00",
+    "pbj_info": {
+        "base_lev": "Lev3",
+        "transition_time": 1002.842,
+        "base_lev_bitwise_identical": "true"
+    },
+    "job_archiver_email": "vvarma@caltech.edu",
+    "postprocess_revision": 1
+}

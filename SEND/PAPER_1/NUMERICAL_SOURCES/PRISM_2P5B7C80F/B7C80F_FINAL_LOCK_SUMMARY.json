@@ -1,0 +1,22 @@
+{
+  "experiment": "B7C80F_LEGACY8_SEOBNRV4PHM_FINAL_LOCK_PACKAGE",
+  "source_experiment": "B7C80E_LEGACY8_FINAL_PAIRED_JOIN",
+  "legacy_event_count": 8,
+  "total_detector_rows": 20,
+  "pass_total_detector_rows": 19,
+  "pass_reused_existing_rows": 8,
+  "pass_primary_R8_new_rows": 4,
+  "pass_fallback_B7C80D_R2_rows": 7,
+  "bad_std_not_scorable_rows": 1,
+  "unresolved_rows": 0,
+  "usable_event_level_count": 8,
+  "strict_all_detector_complete_event_count": 7,
+  "scored_new_or_fallback_rows_with_drop": 11,
+  "median_drop_fraction_scored_new_or_fallback": -9.996206477333288e-10,
+  "max_abs_drop_fraction_scored_new_or_fallback": 6.632344435122194e-05,
+  "physical_median_clipping_used": false,
+  "zero_score_bad_std_used": false,
+  "domain_error_rows_remaining": 0,
+  "final_verdict": "B7C80F_FINAL_LOCK_OK_LEGACY8_SEOBNRV4PHM_PAIRED_STATUS_19OF20_ROWS_SCORED_8OF8_EVENTS_USABLE",
+  "scientific_boundary": "This is a waveform-family paired status lock, not a discovery claim. SEOBNRv4PHM subtraction is usable at event level for all 8 legacy events. 19/20 detector rows are scored; one V1 row is explicitly not scorable due to bad-std and is not zero-filled. Seven rows required labeled fallback generation configs duration/fs/fmin. No PE median clipping was used."
+}

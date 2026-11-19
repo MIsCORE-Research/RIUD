@@ -1,0 +1,14 @@
+event,frozen_family,paperiii_role,representation,is_primary,shared_rep_group
+GW150914_095045,quasi-stationary,H3,raw/M3,True,M3_H3
+GW200129_065458,dip-rebound-rise,NOT_PRIMARY,not-primary,False,NOT_PRIMARY
+GW200224_222234,multistep,H1,raw/M5,True,M5_H1H2
+GW230824_033047,oscillatory,H2,raw/M5,True,M5_H1H2
+GW230831_015414,multistep,H1,raw/M5,True,M5_H1H2
+GW230904_051013,oscillatory,H2,raw/M5,True,M5_H1H2
+GW231206_233901,oscillatory,H2,raw/M5,True,M5_H1H2
+GW231221_135041,quasi-stationary,H3,raw/M3,True,M3_H3
+GW240629_145256,monotonic-rise,NOT_PRIMARY,not-primary,False,NOT_PRIMARY
+GW240919_061559,quasi-stationary,H3,raw/M3,True,M3_H3
+GW240920_124024,multistep,H1,raw/M5,True,M5_H1H2
+GW241006_015333,multistep,H1,raw/M5,True,M5_H1H2
+GW241231_054133,rise-peak-fall,NOT_PRIMARY,not-primary,False,NOT_PRIMARY

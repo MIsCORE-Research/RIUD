@@ -1,0 +1,122 @@
+{
+  "rule_id": "PRISM_2P3_QTB_R1_BACKGROUND_CALIBRATED_QUIET_GATE",
+  "date_utc": "2026-07-02T14:18:19.463683+00:00",
+  "status": "PREREGISTERED_DRAFT_FOR_FUTURE_HOLDOUT",
+  "not_a_detection_claim": true,
+  "registered_prior_result": {
+    "exp11_event": "GW190521_074359",
+    "exp11_result": "NO_STRICT_QTB_HIT",
+    "exp11_on_pass_gate": false,
+    "exp11_emp_p": 1.0,
+    "exp11_boundary": "Method test only. Not a final PRISM science result."
+  },
+  "diagnostic_basis": {
+    "exp11b": "near-miss analysis showed strict failure came from quiet threshold, not burst/contrast",
+    "exp11c": "background-calibrated quiet analysis showed fixed quiet_rms_max=1.0 was likely too harsh relative to slide background",
+    "quiet_needed_for_first_on_burst_contrast_pass": 1.0859494186647403,
+    "quiet_needed_percentile_rank_in_background": 0.18875656294019721,
+    "background_max_quiet_p25": 1.0886817217891025,
+    "background_max_quiet_median": 1.1614434678149417,
+    "background_max_quiet_p75": 1.8816124185670755,
+    "exp11c_best_diagnostic_row": {
+      "q_label": "BG_Q90",
+      "q_source": "background_max_quiet_rms",
+      "q_quantile": 90,
+      "quiet_rms_max": 1.8816124185670755,
+      "burst_abs_min": 2.5,
+      "contrast_min": 2.5,
+      "on_pass_any": true,
+      "on_pass_count": 75,
+      "on_score": 192.48561407215138,
+      "on_candidate": "mid_ring",
+      "on_kind": "ring",
+      "on_band_low": 60.0,
+      "on_band_high": 180.0,
+      "on_lag": 0.003000000000000013,
+      "on_mode": "same",
+      "on_max_quiet_rms": 1.1614434678149417,
+      "on_min_burst_abs": 8.52159593133009,
+      "on_min_contrast": 8.073019417857532,
+      "bg_n": 237,
+      "bg_nonzero": 65,
+      "bg_pass_slides": 65,
+      "bg_median": 0.0,
+      "bg_p95": 68.19531768124689,
+      "bg_p99": 86.86730421291998,
+      "bg_max": 118.49291968462776,
+      "exceed": 0,
+      "emp_p": 0.004201680672268907,
+      "diagnostic_alpha01": true,
+      "diagnostic_alpha001": false,
+      "boundary": "Diagnostic only. Background-calibrated quiet threshold is post-EXP11 and cannot be claimed as detection."
+    },
+    "diagnostic_only": true
+  },
+  "revised_rule_primary_R1": {
+    "quiet_gate": {
+      "type": "background_calibrated_quantile",
+      "feature": "max(H_quiet_rms, L_quiet_rms)",
+      "threshold": "Q25 of valid slide-background max_quiet_rms distribution",
+      "reason": "Q25 preserves the idea of preceding quiet relative to background while avoiding an arbitrary fixed RMS=1.0 cutoff.",
+      "no_on_source_peeking_when_applied": true
+    },
+    "burst_gate": {
+      "feature": "min(H_burst_abs, L_burst_abs)",
+      "threshold": 2.5,
+      "source": "kept from EXP11 strict rule"
+    },
+    "contrast_gate": {
+      "feature": "min(H_contrast, L_contrast)",
+      "threshold": 2.5,
+      "source": "kept from EXP11 strict rule"
+    },
+    "score": {
+      "formula_description": "coherent_burst * min_contrast * (1 + min_quiet_depth)",
+      "quiet_depth": "max(0, qmax - quiet_rms) per detector, then min across detectors",
+      "candidate_lag_maximization": "max over candidates and physical lags for on-source; same max for each slide background"
+    },
+    "background": {
+      "same_rule_for_real_and_background": true,
+      "unit_of_background": "one best score per slide after candidate/lag maximization",
+      "empirical_p": "(exceed + 1) / (N_slide + 1)",
+      "alpha01_interesting": 0.01,
+      "alpha001_strong": 0.001
+    }
+  },
+  "sensitivity_rules_secondary_not_for_primary_claim": {
+    "R1A_conservative": "Q10 background max_quiet_rms",
+    "R1B_primary": "Q25 background max_quiet_rms",
+    "R1C_loose_diagnostic_only": "Q50 or higher background max_quiet_rms, diagnostic only unless separately preregistered before holdout"
+  },
+  "holdout_protocol": {
+    "eligible_events": [
+      "GW150914",
+      "GW170104"
+    ],
+    "excluded_from_primary_claim": [
+      "GW190521_074359 EXP10E exported common-lag cache used to derive diagnostics"
+    ],
+    "required_before_EXP13": [
+      "export matching QTB input cache for holdout event",
+      "run export sanity audit equivalent to EXP10F",
+      "compute background quiet quantile using slide background only",
+      "apply R1 without changing thresholds after seeing on-source result",
+      "report all candidates/lags/slides and empirical p"
+    ],
+    "no_threshold_edit_after_holdout": true
+  },
+  "claim_language": {
+    "allowed_after_EXP12": [
+      "A revised background-calibrated QTB rule has been preregistered for future holdout tests.",
+      "EXP11 remains a strict negative result on GW190521.",
+      "EXP11B/C motivate the revised quiet gate diagnostically."
+    ],
+    "forbidden_after_EXP12": [
+      "QTB detected",
+      "GW190521 QTB discovery",
+      "EXP11C p-value proves detection",
+      "Revised rule overturns EXP11"
+    ]
+  },
+  "boundary": "EXP12 is rule drafting / preregistration only. No QTB scan. No detection claim. Does not override EXP11."
+}

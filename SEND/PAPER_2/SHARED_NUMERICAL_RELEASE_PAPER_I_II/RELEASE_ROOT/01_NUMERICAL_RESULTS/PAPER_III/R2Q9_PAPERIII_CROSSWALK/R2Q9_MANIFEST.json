@@ -1,0 +1,14 @@
+{
+  "stage": "R2Q9_FREEZE_RIUD68_COMPLEX_AND_PAPERIII_H123_CROSSWALK_DEV61",
+  "verdict": "R2Q8_COMPLEXES_FROZEN_BUT_PAPERIII_H123_PANEL_HAS_NO_PRIMARY_EVENT_OVERLAP",
+  "freeze_id": "c69a6b5e5f421cdc24206b99089dda5e6e8ca8a2af00b42857f7792a355da8d5",
+  "r2q8_components": 3,
+  "paperiii_panel_overlap_unique_events": 0,
+  "paperiii_primary_overlap_unique_events": 0,
+  "patterns": {
+    "NO_H123_EVENT_OVERLAP": 3
+  },
+  "paperiii_labels_used_to_define_component": false,
+  "model_tracing_started": false,
+  "holdout70_results_read": false
+}

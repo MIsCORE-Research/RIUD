@@ -1,0 +1,55 @@
+{
+  "assembled_utc": "2026-08-26T13:24:31.782194+00:00",
+  "target": "E:\\RIUD_ACTIVE_20260808\\RIUD_FREQUENCY_FAMILY_K1_K2_K5_ABC_GEOMETRY_EXPLORATION_ASSEMBLED_R2_20260826",
+  "source_branches": {
+    "free_exploration": "E:\\RIUD_ACTIVE_20260808\\RIUD_FREQUENCY_FAMILY_K1_K2_K5_ABC_GEOMETRY_FREE_EXPLORATION_R1_20260826",
+    "axis_cross_audit": "E:\\RIUD_ACTIVE_20260808\\RIUD_FREQUENCY_FAMILY_K1_K2_K5_ABC_GEOMETRY_CROSS_AUDIT_R0_20260826"
+  },
+  "copied_file_count": 44,
+  "free_event_rows": 98,
+  "s_global_rows": 96,
+  "combination_rows": 378,
+  "svg_plot_count": 17,
+  "new_scientific_calculation": false,
+  "new_map": false,
+  "new_path": false,
+  "new_law": false,
+  "holdout30_accessed": false,
+  "input_references": [
+    {
+      "path": "E:\\RIUD_ACTIVE_20260808\\RIUD_ABC_INTEGRATED_MAP_LAW_LEDGER_R0_20260825\\ABC_96_EVENT_INTEGRATED_LEDGER.csv",
+      "exists": true,
+      "sha256": "c4cf1e1303d70d6bcab088e16c57faefdb7c717ee11a16abc56c11c08d701f03"
+    },
+    {
+      "path": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_FREQUENCY_MAG_SHAPE_CENSUS_R0_20260824\\07_FREQ_MAG_SHAPE_ASSIGNMENTS.csv",
+      "exists": true,
+      "sha256": "e3c5cbc559a6a0cc0320d1d39b122454081c92bc5882fc75cee2edff655c61ae"
+    },
+    {
+      "path": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_DYNAMICS_REPRESENTATION_FREEZE_R10J0R2_PCA90_FIX_PAR16_20260811\\01_FREEZE\\R10J0R2_EVENT_DYNAMICS_FEATURES.csv",
+      "exists": true,
+      "sha256": "dde321a55d2bf718eab4fc637bcc8711dddccc995c64f74b3d8a68dae5aec0a8"
+    },
+    {
+      "path": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_PHYSICAL_DYNAMICAL_LAW_FREEZE_R40_20260815\\R40_SUPPORT_EVENTS.csv",
+      "exists": true,
+      "sha256": "b9a117fe8badc1d3e13017c1bcccf27040be8553e2841db0f2f8de359a8d705e"
+    },
+    {
+      "path": "E:\\RIUD_ACTIVE_20260808\\RIUD_DEV99_PHYSICAL_DYNAMICAL_LAW_DISCOVERY_R39_20260815\\R39_EVENT_ACTIVE_FRACTION.csv",
+      "exists": true,
+      "sha256": "d8d7cc87234b3234052c2000b914eeec268520d4eb220abaebc32ccaa042ae7c"
+    },
+    {
+      "path": "E:\\RIUD_ACTIVE_20260808\\RIUD_PIV_SXS_GR_RELEASE_R1_20260826\\SXS_GR\\RIUD_EARLYMAXFLOW16_MATCHED_PURE_GR_FULL_SYSTEM_TEST_R0_20260824\\06_INDEPENDENT_PHYSICAL_AXIS\\GR16_S_EVENT_SCORES.csv",
+      "exists": true,
+      "sha256": "35c7049f2945719016b6f3f89fce11da989788c1338593e9fbc14d4305971e80"
+    },
+    {
+      "path": "E:\\RIUD_ACTIVE_20260808\\RIUD_PIV_SXS_GR_RELEASE_R1_20260826\\SXS_GR\\RIUD_EARLYMAXFLOW16_MATCHED_PURE_GR_FULL_SYSTEM_TEST_R0_20260824\\06_INDEPENDENT_PHYSICAL_AXIS\\OBS16_S_EVENT_SCORES.csv",
+      "exists": true,
+      "sha256": "12b7172e56009309a0910aa0de060e9702360a50427379b65917b0be5bc33a69"
+    }
+  ]
+}

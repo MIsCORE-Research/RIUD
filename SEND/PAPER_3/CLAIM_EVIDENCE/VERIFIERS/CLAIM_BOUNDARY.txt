@@ -1,0 +1,8 @@
+The package preserves the Paper II/Paper III independent replication outputs
+and their frozen provenance. A technical package self-containment PASS does
+not by itself establish a new scientific claim. Existing scientific verdicts
+and final status files are not rewritten by the packaging guard.
+
+No runtime input may be obtained from an external drive, user directory,
+symlink, junction, or silent fallback. Original source locations may appear
+only in provenance/history records.

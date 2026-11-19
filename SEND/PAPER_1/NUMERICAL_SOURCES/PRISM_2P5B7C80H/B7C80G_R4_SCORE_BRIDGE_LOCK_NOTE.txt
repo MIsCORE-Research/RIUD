@@ -1,0 +1,26 @@
+B7C80G R4 COMPARABLE SCORE BRIDGE LOCK NOTE
+
+Why R4 exists:
+R3 compared current A2 event best against unrestricted B7B1 event-level best.
+That produced one review case, GW200208_130117, because unrestricted event best can use a detector/path outside the current comparable legacy detector set.
+
+R4 correction:
+Use B7B1 detector/path-level original rows and restrict original score to the exact expected detector rows where current A2 is OK.
+
+Result:
+comparable_detector_rows=19
+detector_loose_matches_1e_minus_6=19
+event_bridge_rows=8
+event_loose_matches_1e_minus_6=8
+event_same_band_rows=8
+unrestricted_original_event_best_differs_count=1
+max_abs_detector_delta=0.0
+max_abs_event_delta=0.0
+
+Verdict:
+B7C80G_R4_A2_MATCHES_COMPARABLE_ORIGINAL_SCORE_BRIDGE_LOCKED
+
+Boundary:
+This is current A2 native score vs comparable original/native baseline score.
+It is not SEOB subtraction before/after score drop.
+Bad-std rows are not zero-filled.

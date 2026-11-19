@@ -1,0 +1,4 @@
+hypothesis,target_family,locked_normalization,locked_model,observed_REL_IMPROVEMENT,TOTAL_DRAWS,VALID_DRAWS,TECHNICAL_INVALID_DRAWS,FAMILY_PRESENT_DRAWS,FAMILY_ABSENT_DRAWS,raw_tail_count,raw_empirical_p,global_max_T_tail_count,global_max_T_corrected_p,tail_direction
+H1,multistep,raw,M5_coupled_frequency_width_ODE,0.2956093582321161,1000,1000,0,583,417,6,0.006993006993006993,9,0.00999000999000999,REL_IMPROVEMENT null >= observed
+H2,oscillatory,raw,M5_coupled_frequency_width_ODE,0.19829166885229163,1000,1000,0,270,730,2,0.002997002997002997,2,0.002997002997002997,REL_IMPROVEMENT null >= observed
+H3,quasi-stationary,raw,M3_power_law_first_order_ODE,0.33835828671148105,1000,1000,0,967,33,9,0.00999000999000999,45,0.04595404595404595,REL_IMPROVEMENT null >= observed

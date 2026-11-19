@@ -1,0 +1,19 @@
+PRE-TRANSITION GEOMETRY-AUGMENTED PREDICTION AUDIT R0
+N_INPUT_EVENT_JOIN=96
+N_SCORABLE_EVENTS=91
+FAMILY_ONLY=pre-transition frequency-family cell median model
+FAMILY_PLUS_GEOMETRY=family cell + pre node density + frequency directness + width directness + width rate, fixed ridge regression
+TARGET=post-transition net frequency rate and total frequency rate after frozen GAP boundary
+
+               MODEL  N_OOF  DIRECTION_ACCURACY  NET_RATE_SPEARMAN  TOTAL_RATE_SPEARMAN  NET_RATE_MAE  TOTAL_RATE_MAE  DIRECTION_ACCURACY_NULL_P  NET_RATE_SPEARMAN_NULL_P  TOTAL_RATE_SPEARMAN_NULL_P
+         FAMILY_ONLY     91            0.395604           0.042533            -0.078473    760.989011      712.454212                      0.109                     0.130                       0.411
+FAMILY_PLUS_GEOMETRY     91            0.395604          -0.126303            -0.136351    850.181230      763.152679                      0.838                     0.697                       0.713
+
+INCREMENTAL_DIRECTION_DELTA=0.0
+INCREMENTAL_NET_RATE_RHO_DELTA=-0.16883618803897135
+VERDICT=NO_INCREMENTAL_GEOMETRY_SUPPORT
+NO_GAP_AS_PREDICTOR=TRUE
+NO_POST_FEATURE_IN_PREDICTORS=TRUE
+NO_RESULT_DEPENDENT_TUNING=TRUE
+NO_CANONICAL_MAP_OR_R40_CHANGE=TRUE
+HOLDOUT30_ACCESSED=FALSE

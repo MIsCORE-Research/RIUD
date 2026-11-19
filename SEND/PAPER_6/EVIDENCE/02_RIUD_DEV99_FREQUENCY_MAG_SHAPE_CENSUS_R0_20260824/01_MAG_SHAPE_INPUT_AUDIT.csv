@@ -1,0 +1,3 @@
+VIEW,N_EVENTS,N_DIMS,INPUT_FIELDS,WIDTH_USED,TRANSITION_USED,NODE_COUNT_USED,NORMALIZATION
+FREQ_MAG,98,4,frequency_span_hz|frequency_total_variation_hz|abs_net_change_hz|rate_mad_hz_per_s,False,False,False,DEV cohort robust median/IQR
+FREQ_SHAPE,98,32,f_shape_00|f_shape_01|f_shape_02|f_shape_03|f_shape_04|f_shape_05|f_shape_06|f_shape_07|f_shape_08|f_shape_09|f_shape_10|f_shape_11|f_shape_12|f_shape_13|f_shape_14|f_shape_15|f_shape_16|f_shape_17|f_shape_18|f_shape_19|f_shape_20|f_shape_21|f_shape_22|f_shape_23|f_shape_24|f_shape_25|f_shape_26|f_shape_27|f_shape_28|f_shape_29|f_shape_30|f_shape_31,False,False,False,DEV cohort robust median/IQR

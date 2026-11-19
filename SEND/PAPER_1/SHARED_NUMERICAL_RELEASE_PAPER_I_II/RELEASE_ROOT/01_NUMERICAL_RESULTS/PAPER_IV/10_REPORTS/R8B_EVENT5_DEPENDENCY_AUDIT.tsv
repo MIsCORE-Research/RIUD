@@ -1,0 +1,2 @@
+EVENT_ID	RESIDUAL_REGENERATION_REQUIRED	DOWNSTREAM_REPLAY_REQUIRED	DOWNSTREAM_REPLAY_PERFORMED	WHY	RESIDUAL_INPUT_SOURCE	STATUS
+GW250119_190238	False	False	False	Frozen R40 replay consumes the stored event node/coverage history and physical row; the Panel13 reference rebuild is not an input to the unchanged event5 node rows.	R8A exact residual asset audit	PASS

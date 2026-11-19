@@ -1,0 +1,1 @@
+R8 is a mechanism-study audit branch. Candidate definitions and the 16-constraint vector are frozen before interpretation. Existing frozen outputs are reused; no RIUD law discovery, refit, Holdout30 access, or post-hoc candidate addition.

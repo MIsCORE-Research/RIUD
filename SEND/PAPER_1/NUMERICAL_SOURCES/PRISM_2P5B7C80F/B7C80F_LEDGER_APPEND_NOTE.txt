@@ -1,0 +1,13 @@
+B7C80F FINAL LOCK:
+verdict=B7C80F_FINAL_LOCK_OK_LEGACY8_SEOBNRV4PHM_PAIRED_STATUS_19OF20_ROWS_SCORED_8OF8_EVENTS_USABLE
+legacy_event_count=8
+usable_event_level_count=8
+total_detector_rows=20
+pass_total_detector_rows=19
+bad_std_not_scorable_rows=1
+unresolved_rows=0
+domain_error_rows_remaining=0
+physical_median_clipping_used=false
+zero_score_bad_std_used=false
+median_drop_fraction_scored_new_or_fallback=-9.996206477333288e-10
+max_abs_drop_fraction_scored_new_or_fallback=6.632344435122194e-05

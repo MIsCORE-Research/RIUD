@@ -1,0 +1,3 @@
+# R8 claim boundary
+
+Supported: public SXS10 source-native horizon and waveform observables were actively acquired, hash-frozen, and deterministically measured. Partial: horizon state, area/irreducible-mass evolution, remnant relaxation, and hidden source-state candidates are physically measurable but not yet mapped into an exact frozen R40 likelihood. Not supported: a cohort-wide direct (2,2)x(2,2)->(4,4) nonlinear-QNM signature under the fixed diagnostics. Not testable: a source-native non-normal operator was not provided. No microscopic law, direct Einstein derivation, or new-physics claim is made.

@@ -1,0 +1,11 @@
+{
+  "guard": "PACKAGE_ROOT_ONLY",
+  "requires_drive_letter": false,
+  "requires_fixed_parent_directory": false,
+  "runtime_inputs_must_be_under_current_package_root": true,
+  "runtime_outputs_must_be_under_current_package_root": true,
+  "reject_symlink_junction_reparse": true,
+  "reject_absolute_runtime_path_literals": true,
+  "silent_fallback": false,
+  "scientific_rules_changed": false
+}

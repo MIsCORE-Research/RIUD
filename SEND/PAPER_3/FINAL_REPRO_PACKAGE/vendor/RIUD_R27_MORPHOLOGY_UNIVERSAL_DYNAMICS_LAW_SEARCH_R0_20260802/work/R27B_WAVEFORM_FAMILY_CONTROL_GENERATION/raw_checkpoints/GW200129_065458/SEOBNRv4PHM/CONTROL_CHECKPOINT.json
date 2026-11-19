@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "event": "GW200129_065458",
+  "control_count": 1,
+  "family": "SEOBNRv4PHM",
+  "approximant": "SEOBNRv4PHM",
+  "generation_seed": 270802,
+  "parameters": {
+    "mass_1": 43.82796724955893,
+    "mass_2": 31.60862436871848,
+    "a_1": 0.7915113334455546,
+    "a_2": 0.6031369240718687,
+    "tilt_1": 1.4715347934507337,
+    "tilt_2": 1.2888514418521386,
+    "phi_12": 3.512255286139638,
+    "phi_jl": 1.937558476010356,
+    "theta_jn": 0.5399630863857471,
+    "phase": 3.888091787154152,
+    "luminosity_distance": 952.0811148652264,
+    "geocent_time": 1264316116.4332137
+  },
+  "source": {
+    "H1": {
+      "strain_path": "/mnt/c/Users/민재현/Desktop/prism/PRISM_5P0_A2_TOP2_NATIVE_ASSET_BUILD_R1_A2_RAW_LINEAGE_FIX_20260720/assets/GW200129_065458/LONG/GW200129_065458_H1_LONG_2048S_STANDARD.hdf5",
+      "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/PRISM_5P0_A2_TOP2_NATIVE_MAPS_LOCKED_CANDIDATE_FIRST_R1_LOCKED_A2_PRECOMPUTE_OVERRIDE_20260720/native_inputs/GW200129_065458/RESIDUALS/IMRPhenomXPHM/GW200129_065458_H1_IMRPhenomXPHM_AFTER_RESIDUAL_STANDARD.hdf5",
+      "window_start_gps": 1264316114.4332137,
+      "sample_rate": 4096.0
+    },
+    "L1": {
+      "strain_path": "/mnt/c/Users/민재현/Desktop/prism/PRISM_5P0_A2_TOP2_NATIVE_ASSET_BUILD_R1_A2_RAW_LINEAGE_FIX_20260720/assets/GW200129_065458/LONG/GW200129_065458_L1_LONG_2048S_STANDARD.hdf5",
+      "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/PRISM_5P0_A2_TOP2_NATIVE_MAPS_LOCKED_CANDIDATE_FIRST_R1_LOCKED_A2_PRECOMPUTE_OVERRIDE_20260720/native_inputs/GW200129_065458/RESIDUALS/IMRPhenomXPHM/GW200129_065458_L1_IMRPhenomXPHM_AFTER_RESIDUAL_STANDARD.hdf5",
+      "window_start_gps": 1264316114.4332137,
+      "sample_rate": 4096.0
+    }
+  },
+  "raw_checkpoint_sha256": "87a2150457099fcd9d35ae4b420b8b65903b55494f5915d1f8839226ff92bdf2",
+  "A2_ANCHOR_USED": false,
+  "path_reselection": false,
+  "interpolation": false,
+  "nearest_matching": false,
+  "family_relearning": false,
+  "score_only_reconstruction": false
+}

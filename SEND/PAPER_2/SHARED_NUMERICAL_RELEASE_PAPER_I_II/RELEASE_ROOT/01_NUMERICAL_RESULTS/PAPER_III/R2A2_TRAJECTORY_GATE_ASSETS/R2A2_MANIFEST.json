@@ -1,0 +1,13 @@
+{
+  "stage": "R2A2_GATE_COORDINATE_SEMANTIC_REPAIR_FREEZE",
+  "verdict": "RIUD_GATE_COORDINATE_SEMANTICS_REPAIRED_AND_REFROZEN_READY_FOR_GR_LOCAL_EXTRACTION",
+  "source_r2a_freeze_id": "2330a8d410b6650347af29c236c918daa6d1d60aab32d3bdbd3b1f9e800c4cf7",
+  "new_freeze_id": "6805e147534cd8dc0653da066ae96af69eb531c357f2f530f27c4d4a5be3711a",
+  "branch_identity_sha256": "0f4a0c5cbaaa1e8dd02b0603db7d16d5ccd0a93e9b6c2a0eb88e40af1fb3bf28",
+  "gate_rows": 1642,
+  "law_anchor_rows": 917,
+  "tau_center_coverage": 1.0,
+  "f_center_coverage": 1.0,
+  "branch_redefinition": false,
+  "holdout70_results_read": false
+}

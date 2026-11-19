@@ -1,0 +1,22 @@
+{
+  "experiment": "B7C80E_LEGACY8_FINAL_PAIRED_JOIN",
+  "legacy_event_count": 8,
+  "total_detector_rows": 20,
+  "pass_total_detector_rows": 19,
+  "pass_reused_existing_rows": 8,
+  "pass_primary_R8_new_rows": 4,
+  "pass_fallback_B7C80D_R2_rows": 7,
+  "bad_std_not_scorable_rows": 1,
+  "unresolved_rows": 0,
+  "strict_all_detector_complete_event_count": 7,
+  "usable_event_level_count": 8,
+  "scored_new_or_fallback_rows_with_drop": 11,
+  "median_drop_fraction_scored_new_or_fallback": -9.996206477333288e-10,
+  "max_abs_drop_fraction_scored_new_or_fallback": 6.632344435122194e-05,
+  "physical_median_clipping_used": false,
+  "zero_score_bad_std_used": false,
+  "domain_error_rows_remaining": 0,
+  "verdict": "LEGACY8_SEOBNRV4PHM_PAIRED_STATUS_LOCKED_19OF20_ROWS_SCORED_8OF8_EVENTS_USABLE",
+  "next_step": "LOCK_REPORT_OR_OPTIONAL_PACKAGE",
+  "claim_boundary": "SEOBNRv4PHM paired status is usable for all 8 legacy events, with 19/20 detector rows scored. One V1 detector row is explicitly not scorable due to bad-std and is not zero-filled. Seven prior domain-error rows were recovered only via labeled fallback generation configs duration/fs/fmin, with no PE median clipping."
+}

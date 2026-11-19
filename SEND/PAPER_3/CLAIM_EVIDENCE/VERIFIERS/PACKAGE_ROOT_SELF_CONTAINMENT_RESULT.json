@@ -1,0 +1,13 @@
+{
+  "guard": "PACKAGE_ROOT_ONLY",
+  "package_root": "E:\\RIUD_INDEPENDENT_REPLICATION_FINAL_20260805",
+  "runtime_paths_written": true,
+  "absolute_runtime_path_hits": [],
+  "reparse_or_symlink_hits": [],
+  "C_DRIVE_RUNTIME_DEPENDENCY": false,
+  "E_DRIVE_RUNTIME_DEPENDENCY": false,
+  "D_DRIVE_RUNTIME_DEPENDENCY": false,
+  "silent_fallback_detected": false,
+  "status": "PASS",
+  "errors": []
+}

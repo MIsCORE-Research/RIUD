@@ -1,0 +1,15 @@
+NONE
+
+Verified present in this package assembly:
+
+- Paper I final manuscript PDF
+- Paper II manuscript package
+- Paper II final submission package ZIP
+- Integrated Paper I and II final PDF
+- B7B1 374-event summary
+- B7B1 374-event inventory
+- B7B1 927 event-detector path lock
+- R26C37 authority files
+- R26C42G authority files
+- R26C42H authority files
+- Package asset manifest

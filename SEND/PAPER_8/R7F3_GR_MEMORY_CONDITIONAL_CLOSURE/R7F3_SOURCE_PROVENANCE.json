@@ -1,0 +1,12 @@
+{
+  "branch": "MIsCORE_RIUD_GR_MEMORY_CONDITIONAL_CLOSURE_R7F3_20260827",
+  "input": "R7F2 exact source row master",
+  "input_sha256": "07ac254f9a7aab4114816e0c4917f80a3dc62c969e460cdbfa94ab61ecc48f04",
+  "r7f2_identity": "PASS",
+  "events": 96,
+  "rows": 2976,
+  "workers": 16,
+  "holdout30_accessed": false,
+  "new_variables": false,
+  "riud_refit": false
+}

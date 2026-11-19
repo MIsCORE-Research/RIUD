@@ -1,0 +1,61 @@
+# R8 single-exponential horizon relaxation audit
+
+Frozen source-native R8 horizon time-series were fit on tau=0--50 after the common-horizon landmark.
+
+```json
+{
+  "R_STATUS": "PASS",
+  "SOURCE": "E:\\RIUD_ACTIVE_20260808\\MIsCORE_RIUD_PHYSICAL_MECHANISM_CLOSURE_R8_20260827\\R8_DERIVED_SOURCE_NATIVE\\R8_HORIZON_TIME_SERIES.csv",
+  "SOURCE_SHA256": "afbb0dadc609f87540c2972bcfc67aae26e88255b23b83fc58bb7527ed1aad7a",
+  "WINDOW_NATIVE_AFTER_COMMON_HORIZON": [
+    0.0,
+    50.0
+  ],
+  "MODEL": "c + a * (1 - exp(-t/tau))",
+  "EVENT_N": 10,
+  "VARIABLES": [
+    "ArealMass",
+    "ChristodoulouMass",
+    "chiMagInertial"
+  ],
+  "SUMMARY": {
+    "ArealMass": {
+      "N_EVENTS": 10,
+      "TAU_MEDIAN": 1.6923653324397838,
+      "TAU_MEAN": 1.6829450565840869,
+      "TAU_MIN": 1.4872249654999683,
+      "TAU_MAX": 1.9396484616410854,
+      "R2_MEDIAN": 0.9935995554511161,
+      "R2_MEAN": 0.9942848399430358,
+      "N_R2_BELOW_0_9": 0
+    },
+    "ChristodoulouMass": {
+      "N_EVENTS": 10,
+      "TAU_MEDIAN": 1.6747653352262049,
+      "TAU_MEAN": 1.863307704888436,
+      "TAU_MIN": 1.4433026600926755,
+      "TAU_MAX": 2.9823496879577527,
+      "R2_MEDIAN": 0.9931520826644993,
+      "R2_MEAN": 0.9918227408209204,
+      "N_R2_BELOW_0_9": 0
+    },
+    "chiMagInertial": {
+      "N_EVENTS": 10,
+      "TAU_MEDIAN": 1.3519394705406387,
+      "TAU_MEAN": 6.138680603037779,
+      "TAU_MIN": 0.43556907244820564,
+      "TAU_MAX": 47.06020027636572,
+      "R2_MEDIAN": 0.971829233161121,
+      "R2_MEAN": 0.8957867695723614,
+      "N_R2_BELOW_0_9": 2
+    }
+  },
+  "INTERPRETATION_BOUNDARY": "Source-native exploratory relaxation characterization; not a derivation of RIUD coefficients or a causal fundamental-law proof."
+}
+```
+
+## Result
+
+ArealMass and ChristodoulouMass are well described by one event-wise exponential relaxation over this interval. chiMagInertial has two low-fit events and much wider fitted timescales, so a single common relaxation law is not adequate for spin.
+
+This is a source-native characterization. It does not derive the RIUD time/state/memory variables and does not establish that shear is the unique microscopic driver.

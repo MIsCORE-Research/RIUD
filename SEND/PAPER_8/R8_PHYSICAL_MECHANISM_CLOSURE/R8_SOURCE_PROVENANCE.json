@@ -1,0 +1,22 @@
+{
+  "branch": "MIsCORE_RIUD_PHYSICAL_MECHANISM_CLOSURE_R8_20260827",
+  "active_acquisition": true,
+  "cohort": [
+    "SXS:BBH:0180",
+    "SXS:BBH:0513",
+    "SXS:BBH:0526",
+    "SXS:BBH:1144",
+    "SXS:BBH:1765",
+    "SXS:BBH:2092",
+    "SXS:BBH:2497",
+    "SXS:BBH:2499",
+    "SXS:BBH:2505",
+    "SXS:BBH:2506"
+  ],
+  "source_archive": "R8_EXTERNAL_NR_SOURCE_ARCHIVE",
+  "source_files_verified": 50,
+  "holdout30_accessed": false,
+  "r40_refit": false,
+  "new_law": false,
+  "derived_summary_sha256": "9b6fa394622ec4a98e087140f0ff12ca5d7f123d2b7eb5e5b3e4aa6c7c62e36c"
+}

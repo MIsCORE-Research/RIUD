@@ -1,0 +1,19 @@
+{
+  "source_r2a_freeze_id": "2330a8d410b6650347af29c236c918daa6d1d60aab32d3bdbd3b1f9e800c4cf7",
+  "branch_identity_sha256": "0f4a0c5cbaaa1e8dd02b0603db7d16d5ccd0a93e9b6c2a0eb88e40af1fb3bf28",
+  "canonical_tau_center_formula": "(tau_start_ms + tau_end_ms) / 2",
+  "canonical_tau_span_formula": "abs(tau_end_ms - tau_start_ms)",
+  "canonical_f_center_formula": "(f_start_hz + f_end_hz) / 2",
+  "canonical_f_span_formula": "abs(f_end_hz - f_start_hz)",
+  "legacy_f_center_binding": "delta_f_hz",
+  "legacy_f_center_allowed_as_anchor": false,
+  "legacy_width_binding": "delta_w_ms",
+  "legacy_width_allowed_as_canonical_span": false,
+  "all_gate_rows_role": "ATLAS_EXTRACTION",
+  "hierarchy_consistent_rows_role": "LAW_TRAINING_AND_TRANSITION_TARGETS",
+  "branch_redefinition": false,
+  "signature_redefinition": false,
+  "physical_parameter_attribution": false,
+  "gr_local_opened": false,
+  "holdout70_results_read": false
+}

@@ -1,0 +1,18 @@
+B7C80H SCORE BRIDGE CLAIM BOUNDARY
+
+Allowed:
+- A2 native current score bridge is locked.
+- Comparable original/native B7B1 baseline agrees with current A2 for 19/19 A2-scorable detector rows.
+- Event-level comparable bridge agrees for 8/8 events.
+- GW200225_060421 V1 is not scorable due to bad std and is not zero-filled.
+- GW200208_130117 unrestricted event-best difference is explained by non-comparable path/detector scope.
+
+Not allowed:
+- 20/20 detector rows scored.
+- Zero-filling bad-std V1.
+- Using unrestricted event-best when the comparison requires comparable detector-set best.
+- Treating this as a new SEOB subtraction computation.
+- Claiming QG/Beyond-GR discovery.
+
+One-line lock:
+B7C80H locks the current A2-vs-original score bridge: 19/19 A2-scorable detector rows and 8/8 comparable event bridges match the original B7B1 native baseline, with one explicit bad-std detector excluded rather than zero-filled.

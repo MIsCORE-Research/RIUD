@@ -1,0 +1,37 @@
+{
+  "stage": "R2Q9_FREEZE_RIUD68_COMPLEX_AND_PAPERIII_H123_CROSSWALK_DEV61",
+  "sources": {
+    "R2Q4_freeze": "65a85827430359883d2dccbc3dae8f42e3508108e1c5a0328153e32adb2ce013",
+    "R2Q7_freeze": "3696fef561fc7960ebd45339feb763cbad99fc59f849ca892122c54ccb1ded4e",
+    "R2Q8_freeze": "1623e3a49e49d277af3c0e277bb135246855410569de9ad00c3df4543dc02928",
+    "PaperIII": "frozen 13-event Table 1 assignments from RIUD Paper III, 6 Aug 2026"
+  },
+  "r2q8_complexes_frozen": true,
+  "new_family_discovery": false,
+  "crosswalk_basis": "exact event identifier overlap only",
+  "paperiii_taxonomy_assumed_identical_to_r2q8": false,
+  "paperiii_labels_used_to_define_component": false,
+  "paperiii_primary": {
+    "H1": "multistep raw/M5, 4 events",
+    "H2": "oscillatory raw/M5, 3 events",
+    "H3": "quasi-stationary raw/M3, 3 events"
+  },
+  "paperiii_nonprimary": "3 frozen panel events retained as NOT_PRIMARY",
+  "crosswalk_outputs": [
+    "trace-event incidence",
+    "trace-level overlap",
+    "hub-level overlap",
+    "component-level unique-event and incidence overlap"
+  ],
+  "label_permutation_audit": {
+    "reps": 1999,
+    "role_counts_preserved": "H1=4,H2=3,H3=3,NOT_PRIMARY=3",
+    "event_weights": "number of current component member traces carrying each Paper III event",
+    "purpose": "descriptive compatibility/concentration audit only",
+    "confirmatory": false,
+    "used_to_redefine_components": false
+  },
+  "R2N_R2P_model_tracing_started": false,
+  "model_coordinates_used_to_define_family": false,
+  "holdout70_results_read": false
+}

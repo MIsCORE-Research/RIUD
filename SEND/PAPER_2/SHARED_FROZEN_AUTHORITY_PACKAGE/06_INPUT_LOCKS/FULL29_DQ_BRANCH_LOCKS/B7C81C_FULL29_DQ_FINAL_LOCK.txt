@@ -1,0 +1,50 @@
+PRISM 2.5 B7C81C FULL29 DQ FINAL LOCK
+============================================================
+
+FINAL STATUS:
+B7C81C_FULL29_ANALYSIS_USED_DETECTORS_DQ_CLEAN_LOCKED
+
+POPULATION:
+- FULL29 events: 29
+- Official GWOSC flag queries: 370
+- Query errors: 0
+- Incomplete queries: 0
+
+B7C81B RAW DQ RESULT:
+- 28 events passed all queried detector rows
+- 1 event had one detector-limited row:
+  GW200220_124850 V1
+
+GW200220_124850 V1:
+- DATA = FAIL
+- CBC_CAT1 = FAIL
+- NO_CBC_HW_INJ = PASS
+- NO_BURST_HW_INJ = PASS
+- NO_DETCHAR_HW_INJ = PASS
+
+ANALYSIS-SCOPE RESOLUTION:
+- B7C78 GW200220_124850 used 2 detectors.
+- Representative detector = L1.
+- Actual analysis pair = H1/L1.
+- H1 and L1 both passed all primary DQ checks.
+- V1 was not used in the B7C78 waveform-subtraction result.
+- Therefore the V1 DQ failure does not contaminate the locked analysis result.
+
+FINAL INTERPRETATION:
+- 29/29 analyzed events are usable.
+- All detectors actually used by the FULL29 analysis pass the primary GWOSC DQ checks.
+- No waveform generation, subtraction, A2 rescoring, or retuning was repeated.
+- Calibration uncertainty propagation remains outside this DQ lock.
+
+ALLOWED WORDING:
+The FULL29 official GWOSC DQ audit completed without query errors or
+incomplete flags. All detector data actually used in the locked FULL29
+waveform-subtraction analysis passed the primary DQ and hardware-injection
+checks. GW200220_124850 V1 failed DATA and CBC_CAT1 but was not used in
+that event's H1/L1 analysis result.
+
+FORBIDDEN WORDING:
+- all available detectors passed DQ
+- GW200220_124850 V1 passed
+- calibration uncertainty fully closed
+- all possible detector systematics exhausted

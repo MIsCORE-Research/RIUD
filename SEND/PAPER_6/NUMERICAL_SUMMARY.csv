@@ -1,0 +1,22 @@
+RESULT_ID,VALUE,UNIT,SOURCE
+DEV99_TOTAL,99,events,frequency-only census
+PATH_FOUND,98,events,frequency-only census
+FREQ_MAG,34/64,family1/family2,MAG/SHAPE census
+FREQ_SHAPE,63/35,family1/family2,MAG/SHAPE census
+INTEGRATED_PATH_A2,96,events,integrated landmark census
+R0Q_FINER,28,events,R0Q finer census
+GAP_PROFILE,16 records; 8 z<1,records,GAP score profile
+FREQ_TRANSITIONS,985,transitions,frequency physical audit
+FREQ_RATE_P,5.131479928700461e-11,p,frequency physical audit
+PRETRANSITION,91,events,OOF audit
+PRETRANSITION_ACC,0.3956043956043956,fraction,OOF audit
+PRETRANSITION_RHO,0.041645305678419536,rho,OOF audit
+GEOMETRY_DIRECTION,0.3956043956043956,fraction,geometry audit
+MAG_MISMATCH,6,events,mismatch forensic
+SHAPE_MISMATCH,30,events,mismatch forensic
+GAP_ORDER_MISMATCH,3,events,mismatch forensic
+GAP_SIDE_MISMATCH,1,events,mismatch forensic
+H5_MAG_REPLAY,5/5,events,R9
+H5_SHAPE_REPLAY,4/4,events,R9
+H5_ABC_GAP_REPLAY,4/4,events,R9
+H5_EXCEPTION,1/5,events,R9

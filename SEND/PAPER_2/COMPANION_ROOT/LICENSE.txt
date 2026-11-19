@@ -1,0 +1,1 @@
+This companion is released for audit and scholarly use with the associated RIUD Papers I-IV manuscript record. Consult upstream source-package notices and public-data licenses.

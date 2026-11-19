@@ -1,0 +1,21 @@
+{
+  "paper": "RIUD Paper III | Partially Shared Dynamics | 6 August 2026",
+  "panel_events": 13,
+  "H1_name": "multistep",
+  "H1_count": 4,
+  "H1_representation": "raw/M5",
+  "H1_canonical_corrected_p": 0.005994,
+  "H1_replication_corrected_p": 0.00999,
+  "H2_name": "oscillatory",
+  "H2_count": 3,
+  "H2_representation": "raw/M5",
+  "H2_canonical_corrected_p": 0.002997,
+  "H2_replication_corrected_p": 0.002997,
+  "H3_name": "quasi-stationary",
+  "H3_count": 3,
+  "H3_representation": "raw/M3",
+  "H3_canonical_corrected_p": 0.026973,
+  "H3_replication_corrected_p": 0.045954,
+  "not_primary_count": 3,
+  "final_verdict": "VALIDATED_PARTIALLY_SHARED_DYNAMICS"
+}

@@ -1,0 +1,8 @@
+CONSTRAINTS_EXPLAINED,CONSTRAINTS_FAILED,DIRECTION_SUPPORT_COUNT,KEY_NUMERICAL_RESULT,MECHANISM,MECHANISM_STATUS,NUMERICAL_TEST_RUN,SIMULATIONS_SCORABLE
+source-native horizon evolution,direct frozen-R40 memory reduction not bound,10/10 source state available,AhC area/mass/spin/center trajectories; area monotonic fraction computed per event,HORIZON_STATE,SUPPORTED_SOURCE_NATIVE,TRUE,10
+post-common-horizon settling observable,no exact RIUD memory causal mapping,10/10,metadata remnant mass/spin plus late AhC convergence and local relaxation proxy,REMNANT_RELAXATION,SUPPORTED_SOURCE_NATIVE,TRUE,10
+source-native horizon balance proxy,not direct absorbed flux,10/10,"dM_AhC/dt, dA_AhC/dt, d|J|/dt, dchi/dt computed",HORIZON_BALANCE_PROXY,PARTIAL_SUPPORTED,TRUE,10
+waveform-derived radiated flux,not horizon absorption,10/10 computed,standard SXS energy_flux and angular_momentum_flux from Strain_N2,INFINITY_FLUX,SUPPORTED_DERIVED,TRUE,10
+one event meets the prespecified diagnostic,cohort-wide stable locking absent,1/10 fixed criterion,"h22/h44 amp, phase, omega and fixed 2:1 diagnostic",MODE_COUPLING,NOT_SUPPORTED,TRUE,10
+basic source-native geometry,HorizonsDump surface fields unavailable,10/10,AhC center and J-vector derived from Horizons.h5,RICHER_HORIZON_GEOMETRY,PARTIAL_SUPPORTED,TRUE,10
+none,mathematical operator missing,0/10,No source-native perturbation operator/pseudospectral object in exact SXS10 files,NONNORMAL_TRANSIENT,NOT_TESTABLE,FALSE,0

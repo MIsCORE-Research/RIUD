@@ -1,0 +1,45 @@
+PRISM 2.3 EXP15 Preregistered R1 Holdout Scan
+Rule: EXP12 R1 background-calibrated quiet gate
+Primary holdouts: GW150914, GW170104
+Boundary: no GR refutation, no physical interpretation claim, no external validation claim.
+
+EVENT=GW150914
+verdict=R1_HOLDOUT_QTB_PASS_INTERESTING_ALPHA01_VALIDSLIDE
+quiet_gate_q25=1.2613920649485786
+on_pass_any=True
+on_score=70.89884058361153
+on_candidate=locked_ridge_primary
+on_lag=-0.012
+on_mode=opposite
+on_max_quiet_rms=1.2613920649485786
+on_min_burst_abs=7.1511134231164775
+on_min_contrast=6.382763138220578
+background_slides_valid=157
+exceed_valid=0
+emp_p_valid=0.006329113924050633
+background_slides_all=237
+exceed_all=0
+emp_p_all=0.004201680672268907
+
+EVENT=GW170104
+verdict=R1_HOLDOUT_QTB_PASS_INTERESTING_ALPHA01_VALIDSLIDE
+quiet_gate_q25=1.088979622317599
+on_pass_any=True
+on_score=59.14479828959029
+on_candidate=mid_context_60_180
+on_lag=-0.012
+on_mode=opposite
+on_max_quiet_rms=1.0346257263402816
+on_min_burst_abs=6.022159438684583
+on_min_contrast=6.317168267354601
+background_slides_valid=157
+exceed_valid=0
+emp_p_valid=0.006329113924050633
+background_slides_all=237
+exceed_all=0
+emp_p_all=0.004201680672268907
+
+Conservative read:
+- Use emp_p_valid as the primary denominator.
+- emp_p_all is reported for continuity with slide-grid count but not used to overstate the result.
+- Any pass is a preregistered R1 holdout QTB follow-up result, not a standalone detection claim.

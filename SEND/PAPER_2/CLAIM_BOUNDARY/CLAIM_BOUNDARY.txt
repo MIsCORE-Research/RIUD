@@ -1,0 +1,12 @@
+ALLOWED
+- Paper I B7B1 374-event population authority is bundled and independently checkable.
+- Paper II fixed-path raw-strain, R26C37, R26C42G, and R26C42H authorities are bundled and independently checkable.
+- ENV_A and ENV_B are treated as distinct historical environments.
+- Public raw-data fetching, SHA verification, smoke rerun, and frozen-result comparison are supported.
+
+NOT ALLOWED
+- Treating ENV_A and ENV_B as one proven original environment.
+- Treating SELECTED29 smoke as final coherent scope.
+- Treating FULL29 as a direct SELECTED29 subset.
+- Promoting smoke outputs to new authority science.
+

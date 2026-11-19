@@ -1,0 +1,15 @@
+ASSEMBLY AND QA REPORT
+
+Final integrated PDF pages: 35
+Assembly order:
+- 2 pages integrated front matter
+- 23 pages preserved PRISM R8R4 Paper I
+- 8 pages preserved RIUD Paper II
+- 2 pages integrated synthesis and claim boundary
+
+QA:
+- Front matter DOCX rendered and visually inspected: PASS
+- Synthesis DOCX rendered and visually inspected: PASS
+- Final PDF rendered to 35 page images and inspected via complete contact sheets: PASS
+- No clipping, overlap, missing pages, or broken glyphs observed.
+- PDF bookmarks added for all four major sections.

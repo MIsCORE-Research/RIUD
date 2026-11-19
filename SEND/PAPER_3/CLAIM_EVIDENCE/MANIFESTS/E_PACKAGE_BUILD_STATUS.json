@@ -1,0 +1,14 @@
+{
+  "package_root_policy": "PACKAGE_ROOT_ONLY",
+  "build_location": "E_SSD_INITIAL_BUILD",
+  "runtime_drive_requirement": null,
+  "runtime_inputs_outputs": "PACKAGE_ROOT_ONLY",
+  "resolved_runtime_paths": "RESOLVED_RUNTIME_PATHS.csv",
+  "package_root_guard": "PASS",
+  "r1_source_audit": "PASS_13_EVENTS_13000_CONTROLS",
+  "scientific_run_rerun": false,
+  "original_scientific_outputs_preserved": true,
+  "old_inner_duplicate_file_count": 0,
+  "source_stage_count": 19,
+  "next": "COPY_PACKAGE_AND_RERUN_GUARD_FROM_NEW_ROOT"
+}

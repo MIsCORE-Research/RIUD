@@ -1,0 +1,44 @@
+B7C80F FINAL LOCK NOTE
+======================================================================
+
+Final verdict:
+B7C80F_FINAL_LOCK_OK_LEGACY8_SEOBNRV4PHM_PAIRED_STATUS_19OF20_ROWS_SCORED_8OF8_EVENTS_USABLE
+
+Core result:
+- Legacy events: 8/8 usable at event level.
+- Detector rows: 19/20 scored.
+- Existing reused SEOBNRv4PHM rows: 8.
+- New primary R8 rows: 4.
+- Fallback-config B7C80D_R2 rows: 7.
+- Not scorable: 1 V1 row, GW200225_060421 V1, bad std reconfirmed.
+- Unresolved rows: 0.
+- Remaining SEOBNRv4PHM domain errors: 0.
+- Physical PE median clipping used: false.
+- Bad-std zero-score used: false.
+
+Score-drop result for newly scored/fallback rows:
+- Scored new/fallback rows with before-after scores: 11
+- Median drop fraction: -9.996206477333288e-10
+- Max absolute drop fraction: 6.632344435122194e-05
+
+Event-level status:
+- GW200129_065458: COMPLETE_REUSED_EXISTING_SEOBNRV4PHM (pass=3/3, bad_std=0, unresolved=0)
+- GW200224_222234: COMPLETE_REUSED_EXISTING_SEOBNRV4PHM (pass=3/3, bad_std=0, unresolved=0)
+- GW200302_015811: COMPLETE_REUSED_EXISTING_SEOBNRV4PHM (pass=2/2, bad_std=0, unresolved=0)
+- GW190725_174728: COMPLETE_WITH_FALLBACK_CONFIG_SEOBNRV4PHM (pass=2/2, bad_std=0, unresolved=0)
+- GW191103_012549: COMPLETE_WITH_FALLBACK_CONFIG_SEOBNRV4PHM (pass=2/2, bad_std=0, unresolved=0)
+- GW200208_130117: COMPLETE_PRIMARY_R8_SEOBNRV4PHM (pass=2/2, bad_std=0, unresolved=0)
+- GW200225_060421: USABLE_PAIR_WITH_BAD_STD_DETECTOR_LIMIT (pass=2/3, bad_std=1, unresolved=0)
+- GW200308_173609: COMPLETE_WITH_FALLBACK_CONFIG_SEOBNRV4PHM (pass=3/3, bad_std=0, unresolved=0)
+
+Interpretation:
+SEOBNRv4PHM paired status is now usable for all legacy 8 events.
+The SEOBNRv4PHM subtraction did not meaningfully reduce the PRISM score in scored new/fallback rows.
+The one non-scored row is a detector-data/scorer limitation and was not zero-filled.
+
+Required claim boundary:
+This is not a discovery claim and not proof of Beyond-GR/QG.
+This is a waveform-family paired audit lock showing that the legacy8 PRISM morphology is not removed by SEOBNRv4PHM subtraction in the scored rows.
+Fallback rows must remain labeled separately from primary R8 rows.
+
+END.

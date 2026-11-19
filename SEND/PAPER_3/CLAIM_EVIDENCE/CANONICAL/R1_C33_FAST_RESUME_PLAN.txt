@@ -1,0 +1,27 @@
+R1 C33 FAST RESUME PLAN — PLAN ONLY, NOT EXECUTED
+
+Finding:
+- Current C33 calculation fast path is present: event cache once, partial prefix selection,
+  single-pass three-role exact DP, affine complex synthesis, array-only pairmap gather,
+  and full-array parity gate.
+- Current run is on D: FAT32 under Windows and calls flush()+os.fsync() for every job.
+- Named R6/R9 package directories were not found in the searched Documents/Codex and
+  Desktop/prism roots, so exact R9 code/hash compatibility is not yet proven.
+
+Safe plan requiring explicit approval before any stop/restart:
+1. Do not delete or overwrite the current C33 scratch, checkpoint, logs, or output.
+2. Record a full checkpoint manifest and SHA256 before stopping anything.
+3. Preserve the current run as an immutable evidence branch.
+4. Recover or verify the exact R9 runner; do not substitute a merely similar runner.
+5. Copy only the preserved checkpoint inputs to a new WSL ext4 scratch root.
+6. Disable per-job fsync only in the new resume branch; retain shard-level commit and
+   deterministic resume validation.
+7. Run a one-event/one-shard parity smoke against the preserved checkpoint and require
+   byte/key/stat parity before scaling to all 104 shards.
+8. Run the accelerated branch only after smoke PASS, with separate logs and outputs.
+9. Compare completed job keys, duplicate/missing keys, result hashes, and headline
+   statistics before considering the accelerated branch usable.
+
+Current action:
+- No stop, restart, code mutation, or duplicate C33 execution was performed.
+- FINAL_VERDICT remains None.

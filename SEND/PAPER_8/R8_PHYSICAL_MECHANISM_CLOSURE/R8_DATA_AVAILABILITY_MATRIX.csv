@@ -1,0 +1,8 @@
+MECHANISM,NUMERICAL_TEST,SOURCE,STATUS,SXS10_AVAILABLE
+AhC horizon state,TRUE,Horizons.h5 AhC.dir,TESTED,10/10
+Areal/irreducible mass,TRUE,Horizons.h5 ArealMass.dat,TESTED,10/10
+Christodoulou mass,TRUE,Horizons.h5 ChristodoulouMass.dat,TESTED,10/10
+Remnant spin/relaxation,TRUE,metadata.json + Horizons.h5,TESTED,10/10
+Waveform h22/h44,TRUE,Strain_N2.h5,TESTED,10/10
+Infinity flux,TRUE,sxs.waveforms standard routines,TESTED_DERIVED,10/10 derivable
+Non-normal operator,FALSE,No source-native perturbation/pseudospectral object,NOT_TESTABLE_AFTER_SEARCH,0/10

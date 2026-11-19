@@ -1,0 +1,3 @@
+SEARCH_TARGET,EXACT_COHORT,PUBLIC_CATALOG_CHECKED,FOUND,STATUS,NOTE
+HorizonsDump.h5 / horizon-surface dump,SXS10,SXS metadata file maps at selected levels,FALSE,NOT_TESTABLE_AFTER_PUBLIC_SEARCH,Only Horizons.h5 was listed for all 10 selected levels; no substitute used
+Waveform strain modes,SXS10,SXS metadata file maps at selected levels,TRUE,ACQUIRED_AND_TESTED,Strain_N2.h5

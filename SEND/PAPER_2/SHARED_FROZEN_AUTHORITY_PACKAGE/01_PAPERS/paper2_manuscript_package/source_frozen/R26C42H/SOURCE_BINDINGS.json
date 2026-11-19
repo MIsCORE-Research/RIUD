@@ -1,0 +1,13 @@
+{
+  "dynamic_source": "/mnt/c/Users/\ubbfc\uc7ac\ud604/Desktop/prism/RIUD_R26C26B1_FAILED4_STRICT_COORD_MATCH_AND_16EVENT_MERGE_20260728/scripts/run.py",
+  "dynamic_source_sha256": "058dc2982fe83eb7f82f7f10f0bb3b86f80519325cbd9cb798dda716e7726f8e",
+  "canonical_engine_path": "/mnt/c/Users/\ubbfc\uc7ac\ud604/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/scripts/run_original_engine_wide5.py",
+  "canonical_engine_sha256": "1e21fd5cf779c1315d5323f2dcba0355e993ae55271c55004073744c7e4e7c15",
+  "canonical_engine_load_mode": "FULL_IMPORT_EXACT",
+  "rule_path": "/mnt/c/Users/\ubbfc\uc7ac\ud604/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/frozen/candidate_first_rule_frozen.py",
+  "rule_sha256": "899ecf4e4ce621c411dd8f03409a9bda3b9647d1e940f47a492b2adfb4ebc768",
+  "R6_lock": "/mnt/c/Users/\ubbfc\uc7ac\ud604/Desktop/prism/RIUD_R26C42F1_OFFSOURCE_CONTROL_ASSET_EXACT_RESOLUTION_R6_13EVENT_PARALLEL_HARDBIND_20260801/output/EVENT_CONTROL_ASSET_LOCK.csv",
+  "R6_lock_sha256": "06b81c34f2ad7629059817337e7d57a37a27eba1db984d10291d5e646ccd37bc",
+  "C42C_summary": "/mnt/c/Users/\ubbfc\uc7ac\ud604/Desktop/prism/RIUD_R26C42C_FROZEN_REALDATA_DIRECT_COMPLEX_PHASE_STACK_R0_20260801/output/FINAL_SUMMARY.csv",
+  "C42C_summary_sha256": "39bb618e7e1e960c61ecd7f9055334c430e97c1932ebc8aaab7bcacc260deb7e"
+}

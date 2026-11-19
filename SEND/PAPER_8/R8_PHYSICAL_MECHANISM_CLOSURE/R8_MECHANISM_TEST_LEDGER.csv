@@ -1,0 +1,9 @@
+ACTIVE_ACQUISITION,AVAILABILITY,MECHANISM,NOTES,OBSERVABLES,STATUS
+True,10/10 source-native,HORIZON_STATE_EVOLUTION,No direct frozen-R40 topology likelihood binding,AhC areal/Christodoulou mass and chi time series; common-horizon landmark,PARTIAL_SUPPORTED
+True,10/10 derived deterministically,HORIZON_FLUX,Waveform-derived infinity flux is available; horizon absorption remains a separate proxy,derivatives of AhC mass/area/J/chi as horizon-balance proxies plus standard waveform flux,PARTIAL_SUPPORTED
+True,10/10 source-native,IRREDUCIBLE_MASS_AREA,Monotonic relaxation is observed; causal mapping to RIUD memory is not identified,AhC area/irreducible-mass evolution after common horizon,PARTIAL_SUPPORTED
+True,10/10 source-native,REMNANT_RELAXATION,No event-to-RIUD row-level transfer allowed,metadata remnant mass/spin plus late AhC convergence,PARTIAL_SUPPORTED
+True,10/10 h22/h44,NONLINEAR_MODE_INTERACTION,No stable 2:1 frequency-locking criterion across cohort; no R coefficient fit,direct h22/h44 phase/frequency and amplitude diagnostics,NOT_SUPPORTED
+True,0/10,NONNORMAL_SOURCE_DYNAMICS,Required operator/perturbation fields absent from acquired source contract,source-native perturbation/Jacobian or non-normal operator,NOT_TESTABLE_WITH_AVAILABLE_DATA
+True,10/10 horizon state,HIDDEN_SOURCE_STATE,"Source state exists, but frozen R40 memory reduction cannot be claimed without an approved common likelihood binding",horizon variables outside waveform projection,PARTIAL_SUPPORTED
+True,10/10 path; 6/6 AR-scorable,NR_NATIVE_RIUD_STRUCTURE,Source-native correspondence is established; exact LIGO residual frontend is not present,existing SXS native path/topology plus acquired source data,PARTIAL_SUPPORTED

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "event": "GW150914_095045",
+  "control_count": 1,
+  "family": "SEOBNRv4PHM",
+  "approximant": "SEOBNRv4PHM",
+  "generation_seed": 270802,
+  "parameters": {
+    "mass_1": 38.21699758702877,
+    "mass_2": 32.20969716505654,
+    "a_1": 0.4338995320657293,
+    "a_2": 0.398889342699762,
+    "tilt_1": 1.6906449109686164,
+    "tilt_2": 1.77309665711593,
+    "phi_12": 0.0,
+    "phi_jl": 0.0,
+    "theta_jn": 2.69058100030177,
+    "phase": 0.0,
+    "luminosity_distance": 455.6161711513533,
+    "geocent_time": 1126259462.419288
+  },
+  "source": {
+    "H1": {
+      "strain_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726/assets/GW150914_095045/GW150914_095045_H1_GWOSC_4096HZ_2048S_LONG.hdf5",
+      "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/work/GW150914_095045/regenerated_residuals/IMRPhenomXPHM/GW150914_095045_H1_IMRPhenomXPHM_POSTERIOR_MEDIAN_RESIDUAL.h5",
+      "window_start_gps": 1126259460.419288,
+      "sample_rate": 4096.0
+    },
+    "L1": {
+      "strain_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C9_LOCKED_14EVENT_LONG2048_WINDOW200_ACQUISITION_20260726/assets/GW150914_095045/GW150914_095045_L1_GWOSC_4096HZ_2048S_LONG.hdf5",
+      "residual_binding_path": "/mnt/c/Users/민재현/Desktop/prism/RIUD_R26C12R4_CANONICAL_13EVENT_MERGER_M120_P30_W5_20260728/engine/work/GW150914_095045/regenerated_residuals/IMRPhenomXPHM/GW150914_095045_L1_IMRPhenomXPHM_POSTERIOR_MEDIAN_RESIDUAL.h5",
+      "window_start_gps": 1126259460.419288,
+      "sample_rate": 4096.0
+    }
+  },
+  "raw_checkpoint_sha256": "64daaad40cc3f99e510c8673ad1aa175ce7df57fccd4e9985060ad5175db8cee",
+  "A2_ANCHOR_USED": false,
+  "path_reselection": false,
+  "interpolation": false,
+  "nearest_matching": false,
+  "family_relearning": false,
+  "score_only_reconstruction": false
+}

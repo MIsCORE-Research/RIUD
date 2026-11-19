@@ -1,0 +1,1 @@
+R7F3 conditional closure uses the exact R7F2 96-event/2976-row universe, six fixed GR candidate families, GR0/GRH/GRM feature definitions, 5 inner event folds, and 96 outer held events. Frozen RIUD full predictor and term ablations are offsets; RIUD coefficients are not refit. Holdout30 is untouched.
