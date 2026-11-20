@@ -32,3 +32,6 @@ desktop.ini
 
 # Internal audit report
 MIsCORE_RIUD_FINAL_AUDIT_REPORT.md
+
+# Temporary or standalone zip bundles in SEND
+SEND/*.zip
