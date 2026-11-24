@@ -7,6 +7,11 @@ This repository provides numerical pipelines, frozen execution engines, replicat
 ## Quick Reproduction
 
 ```bash
+# Paper I: 29-Event Table 1 & Companion Verification (< 5 seconds)
+python src/verify_paper1.py
+# (Or standalone Table 1 runner: python SEND/PAPER_1_CHECK/reproduce_table1.py)
+
+# Paper IV: Holdout-5 R40 Physical Benchmark (< 10 seconds)
 python fast_track_r40/reproduce_r40.py
 ```
 Evaluates the frozen R40 forward likelihood engine across the five holdout events (GW241114_024711, GW240830_211120, GW240612_081540, GW241130_110422, GW250119_190238) across windows W1–W4 in under 10 seconds.
@@ -30,7 +35,7 @@ To verify all 8 papers in sequence:
 
 | Paper | Title / Subject | Code & Data Path | Primary Verification Command |
 |---|---|---|---|
-| Paper I | PRISM: Frequency Ridge Locked Validation & Catalog Morphology Controls | `SEND/PAPER_1/` | `python src/verify_paper1.py` |
+| Paper I | PRISM: Frequency Ridge Locked Validation & Catalog Morphology Controls | `SEND/PAPER_1/`, `SEND/PAPER_1_CHECK/` | `python src/verify_paper1.py` (or `python SEND/PAPER_1_CHECK/reproduce_table1.py`) |
 | Paper II | RIUD: Numerical Relativity SXS Mirror & R26 Permutation Null Companion | `SEND/PAPER_2/` | `python src/verify_paper2.py` |
 | Paper III | Independent Replication Suite & R27 Corroboration Tree | `SEND/PAPER_3/` | `python src/verify_paper3.py` |
 | Paper IV | Frozen Engine Holdout-5 Exact Replay & Likelihood Benchmark (R40) | `SEND/PAPER_4/` | `python fast_track_r40/reproduce_r40.py` |

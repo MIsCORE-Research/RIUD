@@ -1,0 +1,5 @@
+Event,On_Source_Score,Windows_Tested,Refit_Null_Mean,Refit_Null_Std,Refit_Null_Median,Refit_Null_p99,Refit_Null_Max,Observed_Exceedance_Rate,Rank_p_value,Equivalent_Rank_Sigma,Sample_Z_Separation
+GW190521,22.410994,1018,4.379,0.356,4.362,5.301,5.868,0 / 1018,<= 1/1019,>= 3.10 sigma,50.68
+GW150914,16.901189,1018,2.914,0.236,2.891,3.617,3.921,0 / 1018,<= 1/1019,>= 3.10 sigma,59.22
+GW170104,9.805093,1018,3.961,0.299,3.94,4.817,5.497,0 / 1018,<= 1/1019,>= 3.10 sigma,19.57
+GW170814,20.39339,1018,3.822,0.315,3.795,4.711,5.36,0 / 1018,<= 1/1019,>= 3.10 sigma,52.69

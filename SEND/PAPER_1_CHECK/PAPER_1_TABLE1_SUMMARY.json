@@ -1,0 +1,55 @@
+{
+  "audit_date": "2026-11-23",
+  "n_events": 29,
+  "comparators": {
+    "off_source_strain": {
+      "positive_events": "22/29",
+      "median_contrast": 0.4435245614203852,
+      "sign_p_twosided": 0.008130058646202087,
+      "wilcoxon_p_twosided": 0.00234014168381691
+    },
+    "exact_waveform_subtraction": {
+      "positive_events": "22/29",
+      "median_contrast": 0.37333959074038514,
+      "sign_p_twosided": 0.008130058646202087,
+      "wilcoxon_p_twosided": 0.0006687678396701813
+    },
+    "matched_snr_mismatch_bank": {
+      "positive_events": "15/29",
+      "median_contrast": 0.08257228748157386,
+      "sign_p_twosided": 1.0,
+      "wilcoxon_p_twosided": 0.6239256113767624
+    }
+  },
+  "four_mismatch_families": [
+    {
+      "family": "ALT_PRECESSING_PV2",
+      "approximant": "IMRPhenomPv2",
+      "transform": "IDENTITY",
+      "notes": "Precessing model mismatch"
+    },
+    {
+      "family": "NONPRECESSING_D",
+      "approximant": "IMRPhenomD",
+      "transform": "ALIGNED_SPINS",
+      "notes": "Non-precessing model mismatch"
+    },
+    {
+      "family": "WRONG_Q_XPHM",
+      "approximant": "IMRPhenomXPHM",
+      "transform": "MASS_RATIO_BIAS",
+      "notes": "Mass ratio parameter mismatch"
+    },
+    {
+      "family": "ZERO_SPIN_XPHM",
+      "approximant": "IMRPhenomXPHM",
+      "transform": "ZERO_SPINS",
+      "notes": "Zero spin parameter mismatch"
+    }
+  ],
+  "source_provenance": {
+    "R7A_original_dir": "E:\\ARCHIVE\\99_PRESERVED_UNCOVERED\\90_ARCHIVE\\BACKUPS\\RIUD_FULL_BACKUP_20260801\\prism\\PRISM_NP2_R7A_CROSS_DETECTOR_COORDINATE_PREDICTION_R1_20260715",
+    "R7B_original_dir": "E:\\ARCHIVE\\99_PRESERVED_UNCOVERED\\90_ARCHIVE\\BACKUPS\\RIUD_FULL_BACKUP_20260801\\prism\\PRISM_NP2_R7B_EVENT_NATIVE_GR_ONLY_EXACT_SUBTRACTION_NULL_R0_20260715",
+    "R7C_original_dir": "E:\\ARCHIVE\\99_PRESERVED_UNCOVERED\\90_ARCHIVE\\BACKUPS\\RIUD_FULL_BACKUP_20260801\\prism\\PRISM_NP2_R7C_MATCHED_SNR_WAVEFORM_MISMATCH_CONTROL_R1_20260715"
+  }
+}
